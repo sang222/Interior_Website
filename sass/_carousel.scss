@@ -1,0 +1,150 @@
+body.page-home {
+
+  .bx-wrapper {
+    background: $gray;
+    margin: 0;
+    
+    .bx-viewport {
+      background: none;
+      @include boxshadow(none);
+      border: 0;
+      
+      .bx-has-pager.bx-has-controls-direction {
+        display: none;
+      }
+
+      .bxslider {
+
+        li {
+          padding: 131px 0 200px;
+
+         .box {
+           display: table;
+           margin: auto;
+           position: relative;
+
+           img {
+             margin: auto;
+           }
+
+           .cls-box {
+             position: absolute;
+             width: 367px;
+             left: -290px;
+             top: 190px;
+
+             h2 {
+               @include FontRegular($font-title);
+               text-transform: uppercase;
+               position: relative;
+               padding-bottom: 15px;
+
+               &:after {
+                 content: '';
+                 position: absolute;
+                 bottom: 0;
+                 width: 97%;
+                 height: 1px;
+                 background: #000;
+                 left: 0;
+               }
+             }
+
+             p {
+               @include FontRegular($font-body);
+               color: $text;
+               padding: 40px 70px 0 0;
+             }
+
+             a {
+               @include FontBold($font-body);
+               color: $social;
+             }
+
+           }
+
+         }
+
+          a.shop {
+            @include FontBold(24px);
+            padding-bottom: 7px;
+            position: relative;
+            color: $social;
+            padding-top: 100px;
+            margin-right: 100px;
+
+            &:after {
+              content: '';
+              position: absolute;
+              bottom: -5px;
+              left: -35px;
+              background: url(../images/arrow-shop.png);
+              width: 127px;
+              height: 8px;
+            }
+
+            &:hover {
+              text-decoration: none;
+            }
+
+          }
+
+        }
+
+      }
+      
+    }
+
+    .bx-pager {
+      padding-top: 0;
+      text-align: left;
+      width: auto;
+      bottom: 60px;
+      left: 100px;
+
+      &.bx-default-pager a {
+        background: none;
+        border: 1px solid #000;
+        
+        &.active {
+          background: #000;
+        }
+
+      }
+      
+    }
+
+    .bx-prev, .bx-next {
+      background: url('../images/arrow-carousel.png') no-repeat;
+      width: 24px;
+      height: 23px;
+      margin-top: -90px;
+
+      &:hover {
+        background-position: 0 0;
+      }
+    }
+
+    .bx-next {
+      background: url('../images/arrow-carousel-bottom.png') no-repeat;
+    }
+
+    .bx-prev {
+      right: 10px;
+      margin-top: -156px;
+      left: inherit;
+
+      &:after {
+        content: '';
+        position: absolute;
+        width: 28px;
+        height: 2px;
+        background: #838383;
+        bottom: 0;
+      }
+
+    }
+    
+  }
+
+}

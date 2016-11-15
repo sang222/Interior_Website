@@ -1,0 +1,186 @@
+/*===================
+PARAMATERS=====================*/
+/* ========= font-size ============== */
+$font-title: 60px;
+$font-nav: 18px;
+$font-body: 16px;
+$font-slider: 18px;
+$font-breedcrumb: 14px;
+
+/* ================ background ================== */
+$gray: #e7e7e7;
+$box: #f6f6f6;
+$footer: #ebebeb;
+$contact: #ebebeb;
+$social: #4b4b4b;
+$menu-sub: #dedede;
+
+/* ============= color-text =================== */
+$text: #838383;
+$text-title: #4b4b4b;
+$text-big-title: #232323;
+$text-popup: #ffc600;
+
+/*===================
+COLOR=====================*/
+
+
+/*===================
+FONTS=====================*/
+@mixin FontRegular ( $value, $line:1.2 ) {
+	font-family: 'josefin_sansregular', arial, helvetica, sans-serif;
+	font-size: $value;
+	line-height: $line;
+	font-weight: normal;
+}
+
+@mixin FontBold ( $value, $line:1.2 ) {
+	font-family: 'josefin_sansbold', arial, helvetica, sans-serif;
+	font-size: $value;
+	line-height: $line;
+	font-weight: normal;
+}
+
+@mixin FontLight ( $value, $line:1.2 ) {
+	font-family: 'josefin_sanslight', arial, helvetica, sans-serif;
+	font-size: $value;
+	line-height: $line;
+	font-weight: normal;
+}
+
+/*===================
+FUNCTIONS=====================*/
+@function em($size) {
+	@return #{$size / 13px}em;
+}
+
+/*===================
+MIXIN=====================*/
+@mixin animate($time){
+	-webkit-transition: all $time;
+	-moz-transition: all $time;
+	transition: all $time;
+}
+
+@mixin selectNone(){
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+	-moz-user-select: none;     /* Firefox all */
+	-ms-user-select: none;      /* IE 10+ */
+	user-select: none;          /* Likely future */
+}
+
+
+@mixin boderRadius($value)
+{
+	-webkit-border-radius: $value;
+	-moz-border-radius: $value;
+	border-radius: $value;
+}
+
+@mixin borderCorner ($value) {
+	-webkit-border-radius: $value;
+	-moz-border-radius: $value;
+	border-radius: $value;
+}
+
+@mixin setOpacity ($value) {
+	opacity: $value;
+	filter: alpha(opacity=$value*100);
+}
+
+@mixin backgroundCover()
+{
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+@mixin displayFlex()
+{
+	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+	display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+	display: -ms-flexbox;      /* TWEENER - IE 10 */
+	display: -webkit-flex;     /* NEW - Chrome */
+	display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+
+	-webkit-justify-content: center; /* Safari 6.1+ */
+	justify-content: center;
+
+	-webkit-align-items: center; /* Safari 7.0+ */
+	align-items: center;
+}
+
+@mixin objAbsoluteMiddle() {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%); /* IE 9 */
+	-webkit-transform: translate(-50%, -50%); /* Safari */
+}
+
+@mixin clearObjAbsoluteMiddle() {
+	position: relative;
+	top: auto;
+	left: auto;
+	transform: translate(0, 0);
+	-ms-transform: translate(0, 0); /* IE 9 */
+	-webkit-transform: translate(0, 0); /* Safari */
+}
+
+@mixin clearfix {
+	&:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+}
+
+
+@mixin noselect {
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none;   /* Chrome/Safari/Opera */
+	-khtml-user-select: none;    /* Konqueror */
+	-moz-user-select: none;      /* Firefox */
+	-ms-user-select: none;       /* Internet Explorer/Edge */
+	user-select: none;           /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
+
+@mixin no-padding($side) {
+	@if $side == 'all' {
+		.no-padding {
+			padding: 0 !important;
+		}
+	} @else {
+		.no-padding-#{$side} {
+			padding-#{$side}: 0 !important;
+		}
+	}
+}
+
+@mixin no-margin($side) {
+	@if $side == 'all' {
+		.no-margin {
+			margin: 0 !important;
+		}
+	} @else {
+		.no-margin-#{$side} {
+			margin-#{$side}: 0 !important;
+		}
+	}
+}
+
+@mixin boxshadow ($value) {
+	-webkit-box-shadow: $value;
+	-moz-box-shadow: $value;
+	box-shadow: $value;
+}
+
+@mixin Rorate($value) {
+	transform: rotate($value + deg);
+	-webkit-transform: rotate($value + deg);
+	-moz-transform: rotate($value + deg);
+	-o-transform: rotate($value + deg);
+}

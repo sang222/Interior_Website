@@ -1,0 +1,133 @@
+.page.home {
+
+  .product {
+    padding-top: 130px;
+
+    &-row {
+      position: relative;
+      margin-bottom: 150px;
+      
+      .img-1 {
+        padding-left: 150px;
+      }
+
+      &-box {
+
+        &:before {
+          content: '';
+          position: absolute;
+          width: 112%;
+          height: 259px;
+          background: $box;
+          bottom: -50px;
+          z-index: -9999;
+          left: 74px;
+        }
+
+      }
+
+      &-content {
+        padding: 150px 100px 0 72px;
+
+        h2 {
+          @include FontLight($font-title);
+          color: $text-big-title;
+          position: relative;
+          padding-bottom: 20px;
+          
+          &:after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 1px;
+            left: 0;
+            bottom: 0;
+            background: #444444;
+          }
+
+        }
+
+        p {
+          @include FontRegular($font-body);
+          color: $text;
+          padding-top:  30px;
+        }
+
+        a {
+          @include FontBold($font-body);
+          color: $social;
+        }
+
+      }
+
+      &.product-row-2 {
+
+        .product-row-box:before {
+          width: 90%;
+          right: 15px;
+          left: inherit;
+          bottom: -87px;
+          z-index: 1;
+        }
+
+        .img-1 {
+          position: relative;
+          z-index: 2;
+        }
+
+        .product-row-content {
+          position: relative;
+          padding: 182px 0 0 230px;
+          left: 145px;
+          z-index: 9999;
+          
+          h2, p, a {
+            text-align: right;
+          }
+          
+          a {
+            float: right;
+          }
+          
+        }
+
+      }
+
+      &.product-row-3 {
+        
+        .product-row-box {
+          position: relative;
+          top: -430px;
+          margin-bottom: -430px;
+
+          .img-1 {
+            padding-left: 100px;
+          }
+
+          &:before {
+            width: 77%;
+            left: 15px;
+            bottom: -87px;
+          }
+
+        }
+
+        .product-row-content {
+          padding: 0 207px 0 0;
+          margin-top: -10px;
+          margin-left: -200px;
+
+          h2 {
+            margin-top: 0;
+          }
+
+        }
+        
+      }
+
+    }
+
+
+  }
+
+}

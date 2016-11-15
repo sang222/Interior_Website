@@ -1,0 +1,36 @@
+/* ! PRIMARY STYLES */
+.no-padding {
+	padding: 0 !important;
+}
+
+.inline {
+	display: inline-block !important;
+}
+
+.text-uppercase {
+	text-transform: uppercase;
+}
+
+.icon-social {
+	width: 23px;
+	height: 23px;
+	background: $social;
+	@include borderCorner(50%);
+	position: relative;
+}
+.middle {
+	@include objAbsoluteMiddle();
+}
+
+@include no-padding("left");
+@include no-padding("right");
+@include no-padding("top");
+@include no-padding("bottom");
+@include no-padding("all");
+
+@include no-margin("left");
+@include no-margin("right");
+@include no-margin("top");
+@include no-margin("bottom");
+@include no-margin("all");
+

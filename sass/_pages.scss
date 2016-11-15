@@ -1,0 +1,132 @@
+section.page {
+  margin-bottom: 70px;
+
+  .cart {
+    width: 100%;
+    border: 1px solid #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: content-box;
+    display: none;
+
+    &-block {
+      @include FontBold($font-body);
+      color: #000;
+      text-transform: uppercase;
+      border-right: 1px solid #000;
+      padding: 12px 0;
+
+      &:hover {
+        color: #fff;
+        background: #000;
+      }
+
+      &:last-child {
+        border: 0;
+      }
+
+      &:not(:first-child) {
+        height: 43px;
+        text-align: center;  /* align the inline(-block) elements horizontally */
+        font: 0/0 a;
+
+        &:before {
+          content: ' ';
+          display: inline-block;
+          vertical-align: middle;  /* vertical alignment of the inline element */
+          height: 100%;
+        }
+
+        img {
+          display: inline-block !important;
+          vertical-align: middle;  /* vertical alignment of the inline element */
+          font: 16px/1 Arial sans-serif;
+        }
+
+      }
+
+    }
+
+  }
+
+  .middle-block {
+    height: 35px;
+    text-align: center;  /* align the inline(-block) elements horizontally */
+    font: 0/0 a;		/* remove the gap between inline(-block) elements */
+    padding: 0;
+    display: inherit;
+
+    &:before {			/* create a full-height inline block pseudo=element */
+      content: ' ';
+      vertical-align: middle;  /* vertical alignment of the inline element */
+      height: 100%;
+      display: inline-block;
+    }
+
+    a {
+      display: inline-block;
+      vertical-align: middle;  /* vertical alignment of the inline element */
+      font: 16px/1 Arial sans-serif;
+      padding: 0;
+      margin-right: 10px;
+
+      &:hover {
+        background: transparent;
+        border: 0;
+      }
+
+    }
+  }
+
+  .middle-img {
+    @include flexbox();
+    @include align-items(flex-end);
+    @include justify-content(center);
+    @include flex-flow(row wrap);
+  }
+
+  .form-group {
+    margin-bottom: 0;
+  }
+
+  .bread {
+    padding-top: 185px;
+
+    .page-title {
+      @include FontLight($font-title);
+      margin-top: 0;
+      margin-bottom: 29px;
+      padding-bottom: 25px;
+      position: relative;
+
+      &:after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        left: 0;
+        bottom: 0;
+        height: 1px;
+        background: #000;
+      }
+    }
+
+  }
+
+  .breadcrumb {
+    background: transparent;
+    margin-top: 32px;
+    padding: 0;
+    @include FontRegular($font-breedcrumb);
+    
+    a {
+      color: $text-title;
+    }
+
+   &>li+li:before {
+     padding: 0;
+   }
+    
+  }
+
+}

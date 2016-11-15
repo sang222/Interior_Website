@@ -1,0 +1,135 @@
+.page-products .products {
+
+  .inner {
+
+    .nav-tabs {
+      border: 0;
+
+      li {
+
+        a:not(.transparent) {
+          @include FontRegular($font-body);
+          color: $text-title;
+          padding: 7px 20px;
+          border: 1px solid #000;
+          margin-right: 6px;
+          @include borderCorner(0);
+          
+          &:hover {
+            background: #000;
+            color: #fff;
+            @include FontBold($font-body);
+          }
+        }
+        
+        &.active a {
+          background: #000;
+          color: #fff;
+          @include FontBold($font-body);
+        }
+
+        &.tab-right {
+
+          a {
+            background: none;
+            border: 0;
+            font-size: 0;
+          }
+
+        }
+
+      }
+
+    }
+    .relative{
+      position: relative;
+    }
+    .tab-content {
+
+      .tab-pane {
+        overflow: auto;
+        margin-top: 50px;
+
+        .product-item {
+          min-height: 400px;
+          position: relative;
+
+          .product-box{
+            min-height: 235px;
+            position: relative;
+          }
+          img {
+            display: table;
+            margin: 0 auto;
+          }
+
+          .bg-gray {
+            position: absolute;
+            content: '';
+            width: 100%;
+            height: 70px;
+            background: $box;
+            top: -32px;
+            left: 0;
+            z-index: -1;
+          }
+
+          &-content {
+            padding: 50px 0 50px 15px;
+            position: relative;
+            margin-left: 15px;
+            width: 85%;
+            p, span {
+              @include FontBold($font-nav);
+              color: $text-title;
+            }
+
+            span:first-of-type {
+              @include FontRegular($font-nav);
+              margin-right: 10px;
+            }
+
+            &:before {
+              content: '';
+              position: absolute;
+              width: 1px;
+              height: 82px;
+              background: #000;
+              left: 0;
+              top: 25px;
+            }
+
+          }
+
+          .text-sale {
+            @include FontBold(13px);
+            color: #fff;
+            padding: 4px 12px 11px 13px;
+            background: url(../images/text-sale.png) no-repeat;
+            position: absolute;
+            top: 0;
+            right: 0;
+          }
+
+
+
+          &:hover > .cart {
+            display: block;
+          }
+
+        }
+
+      }
+      
+    }
+
+    .form-control {
+      @include borderCorner(0);
+      @include FontRegular($font-body);
+      color: $text-title;
+      margin-left: 7px;
+    }
+
+  }
+
+}

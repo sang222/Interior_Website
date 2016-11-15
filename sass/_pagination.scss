@@ -1,0 +1,32 @@
+section.page {
+
+  .pagination {
+    @include borderCorner(0);
+
+    & >li:first-child>a, & >li:last-child>a {
+      @include borderCorner(0);
+    }
+
+    li {
+
+      & > a {
+        margin-right: 6px;
+        border: 1px solid #e1e1e1;
+        @include FontRegular($font-body);
+        color: $text-title;
+      }
+
+      &:last-child >a {
+        margin-right: 0;
+      }
+
+      &.active > a {
+        color: #fff;
+        background: #000;
+      }
+
+    }
+
+  }
+
+}

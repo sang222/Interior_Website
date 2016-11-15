@@ -1,0 +1,95 @@
+footer  {
+
+  p, ul {
+    @include FontRegular($font-body);
+    color: $text;
+  }
+
+  .contact {
+    background: $box;
+    width: 100%;
+    padding: 50px 0;
+
+    h4 {
+      @include FontBold($font-body);
+      color: $text-title;
+    }
+
+    ul li {
+      padding-bottom: 10px;
+
+      &:last-child {
+        padding-bottom: 0;
+      }
+
+    }
+
+    .info {
+      padding-right: 150px;
+    }
+
+
+    .cls-info li {
+      padding-left: 35px;
+      position: relative;
+
+      &:before {
+        content: '';
+        position: absolute;
+        left: 4px;
+        background: url('../images/icon-phone.png') no-repeat;
+        width: 15px;
+        height: 15px;
+        top: 2px;
+      }
+
+      &:last-child {
+
+        &:before {
+          background: url('../images/icon-clock.png') no-repeat;
+          width: 16px;
+          height: 16px;
+        }
+
+      }
+
+      &.second:before {
+        background: url('../images/icon-mail.png') no-repeat;
+        width: 16px;
+        height: 11px;
+        top: 5px;
+      }
+
+    }
+
+    .cls-category .inline:first-of-type {
+      padding-right: 50px;
+    }
+
+  }
+
+  .desc {
+    background: $contact;
+
+    p {
+      margin-bottom: 0;
+      line-height: 45px;
+    }
+
+    .social {
+      padding-top: 12px;
+
+      img {
+        margin-right: 11px;
+
+        &:last-child {
+          margin-right: 0;
+        }
+
+      }
+
+    }
+
+  }
+
+}
