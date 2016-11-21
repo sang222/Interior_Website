@@ -19,6 +19,7 @@
             background: #000;
             color: #fff;
             @include FontBold($font-body);
+            letter-spacing: -0.3px;
           }
         }
         
@@ -26,11 +27,27 @@
           background: #000;
           color: #fff;
           @include FontBold($font-body);
+          letter-spacing: -0.3px;
         }
 
-        &.tab-right {
+      }
 
-          a {
+      &.tab-right {
+
+        li {
+
+          a.active {
+            background: none;
+            border: 0;
+            font-size: 0;
+          }
+
+          a:hover {
+            font-size: 0;
+            background: none;
+          }
+
+          &.active a {
             background: none;
             border: 0;
             font-size: 0;
@@ -41,14 +58,84 @@
       }
 
     }
+
+
+
     .relative{
       position: relative;
     }
     .tab-content {
 
       .tab-pane {
-        overflow: auto;
         margin-top: 50px;
+
+        &.list {
+
+          .product-item {
+            min-height: 300px;
+
+            .product-box {
+              min-height: 215px;
+            }
+
+            .bg-gray {
+              top: inherit;
+              bottom: -24px;
+              height: 50px;
+            }
+
+            .custom-col-4 {
+              width: 38.333333%;
+            }
+
+            .custom-col-8 {
+              width: 60.666667%;
+            }
+
+          }
+
+          .product-item-content {
+            padding: 0;
+            margin: 0;
+            width: 100%;
+
+            &:before {
+              width: 0;
+            }
+
+            .sale {
+              position: relative;
+
+              span {
+                margin-right: 0;
+              }
+
+              &:before {
+                content: '';
+                position: absolute;
+                height: 1px;
+                background: #000;
+                width: 110px;
+                right: 0;
+                top: 10px;
+              }
+
+            }
+
+            span:last-of-type {
+              margin-left: 10px;
+              margin-right: 0;
+            }
+
+          }
+
+          .cart {
+            display: block;
+            top: inherit;
+            bottom: -97px;
+          }
+
+        }
 
         .product-item {
           min-height: 400px;
@@ -58,6 +145,13 @@
             min-height: 235px;
             position: relative;
           }
+
+          .description {
+            @include FontRegular($font-body);
+            color: $text;
+            padding-top: 15px;
+          }
+
           img {
             display: table;
             margin: 0 auto;
@@ -128,6 +222,7 @@
       @include FontRegular($font-body);
       color: $text-title;
       margin-left: 7px;
+      border: 1px solid #000;
     }
 
   }

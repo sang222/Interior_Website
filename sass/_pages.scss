@@ -11,7 +11,6 @@ section.page {
     display: none;
 
     &-block {
-      @include FontBold($font-body);
       color: #000;
       text-transform: uppercase;
       border-right: 1px solid #000;
@@ -46,6 +45,10 @@ section.page {
 
       }
 
+      & > p {
+        font-size: 16px !important;
+      }
+
     }
 
   }
@@ -67,7 +70,7 @@ section.page {
     a {
       display: inline-block;
       vertical-align: middle;  /* vertical alignment of the inline element */
-      font: 16px/1 Arial sans-serif;
+      font: 0 Arial sans-serif;
       padding: 0;
       margin-right: 10px;
 
@@ -95,6 +98,7 @@ section.page {
 
     .page-title {
       @include FontLight($font-title);
+      color: #000;
       margin-top: 0;
       margin-bottom: 29px;
       padding-bottom: 25px;
@@ -127,6 +131,49 @@ section.page {
      padding: 0;
    }
     
+  }
+
+  &.details {
+
+    .label-height {
+      line-height: 34px;
+    }
+
+    .form-control {
+      @include borderCorner(0)
+    }
+
+    .status {
+      @include  FontBold($font-body);
+      color: #ffc600;
+    }
+
+    .price {
+      @include FontRegular(30px);
+      color: $text-title;
+      margin-bottom: 25px;
+
+      &-sale {
+        @include FontBold(30px);
+        color: #ffc600;
+      }
+
+      &-retail {
+        position: relative;
+
+        &:after {
+          content: '';
+          position: absolute;
+          width: 100%;
+          height: 2px;
+          bottom: 12px;
+          left: 0;
+          background: #9d9d9d;
+        }
+
+      }
+    }
+
   }
 
 }

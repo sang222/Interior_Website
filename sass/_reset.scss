@@ -25,6 +25,8 @@ html {
 
 body {
 	margin: 0;
+	@include FontRegular(16px);
+	color: $text;
 }
 
 /**
