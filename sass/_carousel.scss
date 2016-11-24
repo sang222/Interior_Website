@@ -38,6 +38,7 @@ body.page-home {
                text-transform: uppercase;
                position: relative;
                padding-bottom: 15px;
+               color: $text-big-title;
 
                &:after {
                  content: '';
