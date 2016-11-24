@@ -34,3 +34,18 @@
 @include no-margin("bottom");
 @include no-margin("all");
 
+.btn-quick {
+	text-indent: -9999;
+	border: 0;
+	background: url(../images/icon-view.png) 0 -1px no-repeat;
+	width: 17px;
+	height: 13px;
+}
+
+.btn-close {
+	opacity: 1;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	outline: none;
+}

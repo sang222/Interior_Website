@@ -19,7 +19,13 @@ section.page {
       &:hover {
         color: #fff;
         background: #000;
+
+        .btn-quick {
+          background: url(../images/icon-view.png) 0 -13px no-repeat;
+        }
+
       }
+
 
       &:last-child {
         border: 0;
@@ -138,7 +144,7 @@ section.page {
     
   }
 
-  &.details {
+  .details {
 
     .label-height {
       line-height: 34px;
@@ -181,4 +187,23 @@ section.page {
 
   }
 
+  .modal-dialog {
+
+    .auto {
+      width: auto;
+
+      p {
+        text-align: left;
+        @include FontRegular($font-body);
+        color: $text;
+        text-transform: initial;
+      }
+    }
+
+  }
+
+}
+
+body.modal-open {
+  overflow: inherit;
 }

@@ -165,7 +165,7 @@
             position: relative;
             margin-left: 15px;
             width: 85%;
-            p, span {
+            p, span:not(.cart p) {
               @include FontBold($font-nav);
               color: $text-title;
             }

@@ -8,4 +8,18 @@
 
   }
 
+  section.page {
+
+    .modal-dialog {
+      width: 1030px;
+      margin: 150px auto 0;
+
+      .modal-content {
+        padding: 48px 0;
+        background: #fff;
+      }
+    }
+
+  }
+
 }

@@ -13,7 +13,7 @@
                     </ol>
                 </div>
             </div>
-            <div class="row">
+            <div class="row details">
                 <div class="col-md-4">
 
                 </div>
