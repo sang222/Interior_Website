@@ -39,19 +39,10 @@
 
           a.active {
             background: none;
-            border: 0;
-            font-size: 0;
-          }
-
-          a:hover {
-            font-size: 0;
-            background: none;
           }
 
           &.active a {
             background: none;
-            border: 0;
-            font-size: 0;
           }
 
         }
@@ -223,6 +214,7 @@
       @include FontRegular($font-body);
       color: $text-title;
       margin-left: 7px;
+      width: auto;
       border: 1px solid #000;
     }
 

@@ -74,9 +74,14 @@ section.page {
       padding: 0;
       margin-right: 10px;
 
-      &:hover {
-        background: transparent;
+    }
+
+    &.active {
+      border: 0;
+
+      a {
         border: 0;
+        font-size: inherit !important;
       }
 
     }

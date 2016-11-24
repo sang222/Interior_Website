@@ -21,7 +21,7 @@
 						<li role="presentation"><a href="#sofa_table" aria-controls="sofa_table" role="tab" data-toggle="tab">Sofa Table</a></li>
 						<li role="presentation"><a href="#tivi_shelves" aria-controls="tivi_shelves" role="tab" data-toggle="tab">Tivi Shelves</a></li>
 						<li role="presentation"><a href="#shoes_cabinet" aria-controls="shoes_cabinet" role="tab" data-toggle="tab">Shoes Cabinet</a></li>
-						<li role="presentation" class="pull-right">
+						<li role="presentation" class="pull-right right">
 							<ul class="nav nav-tabs inline tab-right" role="tablist">
 								<li role="presentation" class="middle-block">
 									<a href="#list" aria-controls="list" role="tab" data-toggle="tab" class="transparent"><img src="images/list.png" alt=""></a>
