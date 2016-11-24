@@ -21,25 +21,28 @@
 						<li role="presentation"><a href="#sofa_table" aria-controls="sofa_table" role="tab" data-toggle="tab">Sofa Table</a></li>
 						<li role="presentation"><a href="#tivi_shelves" aria-controls="tivi_shelves" role="tab" data-toggle="tab">Tivi Shelves</a></li>
 						<li role="presentation"><a href="#shoes_cabinet" aria-controls="shoes_cabinet" role="tab" data-toggle="tab">Shoes Cabinet</a></li>
+						<li role="presentation" class="pull-right">
+							<ul class="nav nav-tabs inline tab-right" role="tablist">
+								<li role="presentation" class="middle-block">
+									<a href="#list" aria-controls="list" role="tab" data-toggle="tab" class="transparent"><img src="images/list.png" alt=""></a>
+								</li>
+								<li role="presentation" class="middle-block">
+									<a href="" class="transparent "><img src="images/grid.png" alt=""></a>
+								</li>
+								<li>
+									<div class="form-group">
+										<select class="form-control" id="sel1">
+											<option>Sort by name</option>
+											<option>2</option>
+											<option>3</option>
+											<option>4</option>
+										</select>
+									</div>
+								</li>
+							</ul>
+						</li>
 					</ul>
-					<ul class="nav nav-tabs inline tab-right pull-right" role="tablist">
-						<li role="presentation" class="middle-block">
-							<a href="#list" aria-controls="list" role="tab" data-toggle="tab" class="transparent"><img src="images/list.png" alt=""></a>
-						</li>
-						<li role="presentation" class="middle-block">
-							<a href="" class="transparent "><img src="images/grid.png" alt=""></a>
-						</li>
-						<li>
-							<div class="form-group">
-								<select class="form-control" id="sel1">
-									<option>Sort by name</option>
-									<option>2</option>
-									<option>3</option>
-									<option>4</option>
-								</select>
-							</div>
-						</li>
-					</ul>
+
 
 					<!-- Tab panes -->
 					<div class="tab-content">
