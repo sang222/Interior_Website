@@ -1,0 +1,87 @@
+.page-about .about {
+
+  .inner {
+
+    .bread.team {
+      padding-top: 60px;
+    }
+
+    .team-box {
+      position: relative;
+
+      .wrap-box {
+        position: relative;
+
+        .gray {
+          width: 100%;
+          height: 70px;
+          background: $box;
+          position: absolute;
+          bottom: -38px;
+
+          .gray-content {
+            padding-left: 15px;
+            margin-left: 20px;
+            margin-top: 10px;
+            position: relative;
+
+            p {
+              margin-bottom: 0;
+              color: $text-title;
+
+              &:first-of-type {
+                @include FontBold($font-body);
+                text-transform: uppercase;
+              }
+
+            }
+
+            &:before {
+              content: '';
+              position: absolute;
+              left: 0;
+              bottom: 0;
+              width: 1px;
+              background: #000;
+              height: 82px;
+            }
+
+          }
+
+        }
+
+      }
+
+    }
+
+    .counter {
+      margin-top: 124px;
+      padding: 48px 0;
+      background-color: $box;
+
+      &-img {
+        min-height: 35px;
+
+        img {
+          margin-bottom: 13px;
+        }
+
+      }
+
+      &-number {
+        @include FontRegular($font-title, 0.8);
+        color: $text-title;
+      }
+
+      p {
+        color: $text-title;
+      }
+    }
+
+    .bottom {
+      margin-bottom: 30px;
+    }
+
+  }
+
+}

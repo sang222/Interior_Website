@@ -126,6 +126,22 @@ section.page {
       }
     }
 
+    span {
+      display: inline-block;
+    }
+
+  }
+
+  .flex {
+    @include flexbox();
+    @include flex-flow(row wrap);
+    @include justify-content(space-around);
+  }
+
+  .flex {
+    @include flexbox();
+    @include flex-flow(row wrap);
+    @include justify-content(space-around);
   }
 
   .breadcrumb {

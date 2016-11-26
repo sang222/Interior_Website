@@ -1,0 +1,73 @@
+.page-contact .contact {
+
+  .text-title {
+    margin: 0 0 25px;
+  }
+
+  .icon {
+    padding-left: 30px;
+    position: relative;
+
+    &.phone:before {
+      background: url('../images/icon-phone.png') no-repeat;
+      width: 15px;
+      height: 15px;
+      top: 2px;
+    }
+
+    &.email:before {
+      background: url('../images/icon-mail.png') no-repeat;
+      width: 15px;
+      height: 15px;
+      top: 2px;
+    }
+
+    &.time:before {
+      background: url('../images/icon-clock.png') no-repeat;
+      width: 16px;
+      height: 16px;
+      top: 2px;
+    }
+
+    &:before {
+      content: '';
+      position: absolute;
+      left: 6px;
+      vertical-align: middle;
+      background: url('../images/icon-place.png') no-repeat;
+      width: 12px;
+      height: 18px;
+    }
+
+  }
+
+  .subcribe {
+    @include FontBold($font-nav);
+    color: $text-title;
+    margin-top: 50px;
+  }
+
+  .form-control {
+    @include borderCorner(0);
+    height: 43px;
+    border: 1px solid #e1e1e1;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+
+    textarea.form-control {
+      height: 165px;
+    }
+
+  }
+
+  .btn-send {
+    padding: 11px 23px;
+  }
+
+  .flex {
+    margin-top: 60px;
+  }
+
+}
