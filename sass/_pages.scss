@@ -102,6 +102,7 @@ section.page {
 
   .form-group {
     margin-bottom: 0;
+    overflow: auto;
   }
 
   .bread {
@@ -199,6 +200,53 @@ section.page {
         }
 
       }
+    }
+
+  }
+
+  .form-control, textarea {
+    @include borderCorner(0);
+    height: 43px;
+    border: 1px solid #e1e1e1;
+    @include FontRegular($font-body);
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+
+    textarea.form-control {
+      height: 165px;
+    }
+
+  }
+
+  .link {
+    @include FontRegular($font-body);
+    color: $text;
+    margin-bottom: 20px;
+    display: inline-block;
+  }
+  
+  .underline {
+    text-decoration: underline;
+  }
+
+  &.acoounts {
+
+    .text-title {
+      margin: 0 0 25px;
+    }
+
+    .form-control {
+      height: 35px;
+    }
+
+    .btn-contact {
+      padding: 10px 20px;
+    }
+
+    .register {
+      margin-top: 60px;
     }
 
   }

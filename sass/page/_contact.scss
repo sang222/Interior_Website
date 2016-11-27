@@ -47,20 +47,6 @@
     margin-top: 50px;
   }
 
-  .form-control {
-    @include borderCorner(0);
-    height: 43px;
-    border: 1px solid #e1e1e1;
-  }
-
-  .form-group {
-    margin-bottom: 15px;
-
-    textarea.form-control {
-      height: 165px;
-    }
-
-  }
 
   .btn-send {
     padding: 11px 23px;
