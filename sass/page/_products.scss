@@ -21,6 +21,7 @@
             color: #fff;
             @include FontBold($font-body);
             letter-spacing: -0.3px;
+            text-decoration: none;
           }
         }
         
@@ -60,21 +61,18 @@
 
       .tab-pane {
         margin-top: 50px;
+        display: block;
 
         &.list {
 
           .product-item {
             min-height: 300px;
 
-            .product-box {
-              min-height: 215px;
-            }
-
-            .bg-gray {
+            /*.bg-gray {
               top: inherit;
               bottom: -24px;
               height: 50px;
-            }
+            }*/
 
             .custom-col-4 {
               width: 38.333333%;
@@ -87,13 +85,10 @@
           }
 
           .product-item-content {
-            padding: 0;
-            margin: 0;
-            width: 100%;
 
-            &:before {
+            /*&:before {
               width: 0;
-            }
+            }*/
 
             .sale {
               position: relative;
@@ -121,11 +116,11 @@
 
           }
 
-          .cart {
+          /*.cart {
             display: block;
             top: inherit;
             bottom: -97px;
-          }
+          }*/
 
         }
 
@@ -164,7 +159,7 @@
             padding: 50px 0 50px 15px;
             position: relative;
             margin-left: 15px;
-            width: 85%;
+
             p, span:not(.cart p) {
               @include FontBold($font-nav);
               color: $text-title;

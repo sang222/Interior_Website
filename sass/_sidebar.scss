@@ -1,0 +1,72 @@
+.sidebar {
+
+  .box {
+    padding: 15px 0;
+    border: 1px solid #e1e1e1;
+    margin-bottom: 10px;
+
+    .text-title {
+      margin-bottom: 20px;
+    }
+
+    .form-group {
+
+      label {
+        @include FontRegular($font-body);
+        color: $text-title;
+      }
+
+    }
+
+    .color {
+      width: 19px;
+      height: 19px;
+      margin-right: 12px;
+      display: inline-block;
+
+      &-1 {
+        background: #3cb878;
+      }
+      
+      &-2 {
+        background: #6eb4df;
+      }
+
+      &-3 {
+        background: #f2be39;
+      }
+
+      &-4 {
+        background: #ed1c24;
+      }
+      
+      &-5 {
+        background: #9e0039;
+      }
+
+    }
+
+    .seller {
+
+      &-item {
+
+          .bg-gay {
+            width: 100%;
+            height: 24px;
+            background: $box;
+            position: absolute;
+            bottom: -13px;
+            z-index: -1;
+            left: 0;
+          }
+
+        .text-title {
+          margin-bottom: 5px;
+        }
+      }
+
+    }
+
+  }
+
+}
