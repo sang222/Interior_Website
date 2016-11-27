@@ -15,6 +15,7 @@
 	<link href="vendor/bootstrap/css/bootstrap-slider.min.css" rel="stylesheet">
 	<link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="vendor/bxslider/jquery.bxslider.css">
+	<link rel="stylesheet" href="vendor/slick/slick.css">
 	<link rel="stylesheet" href="css/all.css">
 
 <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
@@ -26,14 +27,16 @@
 	<!-- bxSlider -->
 	<script src="vendor/bxslider/jquery.bxslider.js"></script>
 
+	<!-- Slcik -->
+	<script src="vendor/slick/slick.js"></script>
+
 
 	<!-- Bootstrap Core JavaScript -->
 	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-	<script src="vendor/bootstrap/js/bootstrap-slider.js"></script>
 
 	<!-- SiteMain -->
-	<script src="js/app/class.SiteMain.js"></script>
-	<script src="js/app/class.homepage.js"></script>
+	<!--<script src="js/app/class.SiteMain.js"></script>
+	<script src="js/app/class.homepage.js"></script>-->
 
 </head>
 <?php

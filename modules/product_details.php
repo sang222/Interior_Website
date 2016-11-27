@@ -14,8 +14,48 @@
                 </div>
             </div>
             <div class="row details">
-                <div class="col-md-4">
-
+                <div class="col-md-4 carousel-product-details">
+                    <div class="carousel-wrap">
+                        <div class="bg-gay"></div>
+                    </div>
+                    <div class="slider-for">
+                        <img src="images/carousel-img.png" alt="" class="center-block">
+                        <img src="images/carousel-img.png" alt="" class="center-block">
+                        <img src="images/carousel-img.png" alt="" class="center-block">
+                    </div>
+                    <div class="slider-nav">
+                        <div class="slider-nav-box">
+                            <img src="images/slider-nav-1.png" class="center-block" alt="">
+                            <div class="bg-gay"></div>
+                        </div>
+                        <div class="slider-nav-box">
+                            <img src="images/slider-nav-2.png" class="center-block" alt="">
+                            <div class="bg-gay"></div>
+                        </div>
+                        <div class="slider-nav-box">
+                            <img src="images/slider-nav-3.png" class="center-block" alt="">
+                            <div class="bg-gay"></div>
+                        </div>
+                        <div class="slider-nav-box">
+                            <img src="images/slider-nav-3.png" class="center-block" alt="">
+                            <div class="bg-gay"></div>
+                        </div>
+                    </div>
+                    <script>
+                        $(document).ready(function(){
+                            $('.slider-for').slick({
+                                slidesToShow: 3,
+                                fade: true,
+                                asNavFor: '.slider-nav',
+                            });
+                            $('.slider-nav').slick({
+                                slidesToShow: 3,
+                                slidesToScroll: 1,
+                                asNavFor: '.slider-for',
+                                dots: true
+                            });
+                        });
+                    </script>
                 </div>
                 <div class="col-md-5">
                     <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis dolor repellendus quis nostrum.
@@ -34,8 +74,8 @@
                         <span class="price-detail price-retail">$ 140.00</span>
                         <span class="price-detail price-sale">$ 130.00</span>
                     </div>
-                    <div class="form-group">
-                        <div class="row">
+                    <div class="row">
+                        <div class="form-group clearfix">
                             <div class="col-md-3">
                                 <label for="pwd" class="label-height">Quantity</label>
                             </div>
@@ -43,7 +83,7 @@
                                 <input type="number" value="1" class="form-control" id="pwd">
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="form-group clearfix">
                             <div class="col-md-3">
                                 <label for="pwd" class="label-height">Color</label>
                             </div>
@@ -53,7 +93,7 @@
                                 </select>
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="form-group clearfix">
                             <div class="col-md-3">
                                 <label for="pwd" class="label-height">Size</label>
                             </div>
@@ -63,9 +103,23 @@
                                 </select>
                             </div>
                         </div>
-                        <p class="pull-right">
-                            SUB-TOTAL: $ 0.00
-                        </p>
+                        <div class="form-group clearfix">
+                            <div class="col-md-12">
+                                <p class="pull-right">
+                                    SUB-TOTAL: <strong>$ 0.00</strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="form-group clearfix">
+                            <div class="col-md-12">
+                                <a href="" class="btn btn-contact text-uppercase full">add to cart</a>
+                            </div>
+                        </div>
+                        <div class="form-group clearfix">
+                            <div class="col-md-12">
+                                <a href="" class="btn btn-contact text-uppercase full">add to wishlist</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

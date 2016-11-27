@@ -102,7 +102,6 @@ section.page {
 
   .form-group {
     margin-bottom: 0;
-    overflow: auto;
   }
 
   .bread {
@@ -131,12 +130,6 @@ section.page {
       display: inline-block;
     }
 
-  }
-
-  .flex {
-    @include flexbox();
-    @include flex-flow(row wrap);
-    @include justify-content(space-around);
   }
 
   .flex {
