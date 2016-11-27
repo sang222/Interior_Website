@@ -123,6 +123,11 @@
 													<div class="bg-gray"></div>
 												</div>
 											</div>
+											<div class="col-md-12">
+												<div class="pull-right">
+													<?php include('modules/includes/pagination.php'); ?>
+												</div>
+											</div>
 										</div>
 									</div>
 								</div>

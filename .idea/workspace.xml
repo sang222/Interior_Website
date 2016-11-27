@@ -2,45 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aaf67b7a-922c-423b-b44e-731664826991" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/content-filter/css/reset.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/content-filter/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/content-filter/img/cd-icon-arrow.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/content-filter/img/cd-icon-check.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/content-filter/img/cd-icon-filter.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/content-filter/img/img-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/content-filter/img/img-10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/content-filter/img/img-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/content-filter/img/img-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/content-filter/img/img-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/content-filter/img/img-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/content-filter/img/img-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/content-filter/img/img-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/content-filter/img/img-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/content-filter/img/img-7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/content-filter/img/img-8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/content-filter/img/img-9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/content-filter/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/content-filter/js/jquery-2.1.1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/content-filter/js/jquery.mixitup.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/content-filter/js/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/content-filter/js/mixitup-LICENSE.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/content-filter/partials/_layout.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/content-filter/partials/_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/content-filter/partials/_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/content-filter/readme.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/content-filter/scss/_filter.scss" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/90f55161e836cd3dc109868685d48c327e4d0782/_style.scssc" afterPath="$PROJECT_DIR$/.sass-cache/90f55161e836cd3dc109868685d48c327e4d0782/_style.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/90f55161e836cd3dc109868685d48c327e4d0782/all.scssc" afterPath="$PROJECT_DIR$/.sass-cache/90f55161e836cd3dc109868685d48c327e4d0782/all.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/94d07cad0926d237966d6d723df9f2f967ed6c3a/_products.scssc" afterPath="$PROJECT_DIR$/.sass-cache/94d07cad0926d237966d6d723df9f2f967ed6c3a/_products.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/all.css" afterPath="$PROJECT_DIR$/css/all.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/all.css.map" afterPath="$PROJECT_DIR$/css/all.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/includes/sidebar.php" afterPath="$PROJECT_DIR$/modules/includes/sidebar.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/products.php" afterPath="$PROJECT_DIR$/modules/products.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_style.scss" afterPath="$PROJECT_DIR$/sass/_style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/all.scss" afterPath="$PROJECT_DIR$/sass/all.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/page/_products.scss" afterPath="$PROJECT_DIR$/sass/page/_products.scss" />
     </list>
     <ignored path="Interior_Website.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,8 +26,18 @@
       <file leaf-file-name="_sidebar.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/_sidebar.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
+            <state relative-caret-position="901">
               <caret line="59" column="19" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="products.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/modules/products.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="129" column="48" selection-start-line="125" selection-start-column="52" selection-end-line="129" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -91,10 +63,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sidebar.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sidebar.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/includes/sidebar.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
+            <state relative-caret-position="427">
               <caret line="125" column="53" selection-start-line="125" selection-start-column="53" selection-end-line="125" selection-end-column="53" />
               <folding />
             </state>
@@ -157,13 +129,13 @@
         <option value="$PROJECT_DIR$/modules/product-sidebar.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/sass/page/_products.scss" />
-        <option value="$PROJECT_DIR$/modules/products.php" />
         <option value="$PROJECT_DIR$/sass/all.scss" />
         <option value="$USER_HOME$/Downloads/CssCheckboxKit_1480254350050910/demo.html" />
         <option value="$PROJECT_DIR$/sass/_checkbox.scss" />
         <option value="$PROJECT_DIR$/sass/_style.scss" />
         <option value="$PROJECT_DIR$/sass/_sidebar.scss" />
         <option value="$PROJECT_DIR$/modules/includes/sidebar.php" />
+        <option value="$PROJECT_DIR$/modules/products.php" />
       </list>
     </option>
   </component>
@@ -411,12 +383,12 @@
       <workItem from="1480129392066" duration="8567000" />
       <workItem from="1480172275111" duration="7130000" />
       <workItem from="1480217085422" duration="10866000" />
-      <workItem from="1480245981050" duration="12000000" />
+      <workItem from="1480245981050" duration="12703000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="168141000" />
+    <option name="totallyTimeSpent" value="168844000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -699,14 +671,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/product-sidebar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/content-filter/js/jquery.mixitup.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -795,14 +759,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/products.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="53" column="57" selection-start-line="53" selection-start-column="57" selection-end-line="53" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -827,18 +783,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/modules/includes/sidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="125" column="53" selection-start-line="125" selection-start-column="53" selection-end-line="125" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/product-sidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sass/_sidebar.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
+        <state relative-caret-position="901">
           <caret line="59" column="19" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/includes/sidebar.php">
+    <entry file="file://$PROJECT_DIR$/modules/products.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="125" column="53" selection-start-line="125" selection-start-column="53" selection-end-line="125" selection-end-column="53" />
+        <state relative-caret-position="495">
+          <caret line="129" column="48" selection-start-line="125" selection-start-column="52" selection-end-line="129" selection-end-column="48" />
           <folding />
         </state>
       </provider>
