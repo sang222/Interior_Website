@@ -22,10 +22,12 @@
 
 	</footer>
 	<!-- jQuery -->
-	<script src="js/lib/jquery-1.11.1.min.js"></script>
+	<script src="js/lib/jquery-2.1.1.js"></script>
+	<script src="js/lib/modernizr.js"></script>
 
 	<!-- bxSlider -->
 	<script src="vendor/bxslider/jquery.bxslider.js"></script>
+
 
 	<!-- Slcik -->
 	<script src="vendor/slick/slick.js"></script>
@@ -33,6 +35,12 @@
 
 	<!-- Bootstrap Core JavaScript -->
 	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+	<!-- Filter -->
+	<link rel="stylesheet" href="vendor/content-filter/css/style.css" type="text/css">
+	<script type="text/javascript" href="vendor/content-filter/js/main.js"></script>
+	<script type="text/javascript" href="vendor/content-filter/js/jquery.mixitup.min.js"></script>
+
 
 	<!-- SiteMain -->
 	<!--<script src="js/app/class.SiteMain.js"></script>

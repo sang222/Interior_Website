@@ -47,12 +47,13 @@
                                 slidesToShow: 3,
                                 fade: true,
                                 asNavFor: '.slider-nav',
+                                swipeToSlide: true
                             });
                             $('.slider-nav').slick({
                                 slidesToShow: 3,
                                 slidesToScroll: 1,
                                 asNavFor: '.slider-for',
-                                dots: true
+                                arrows: true
                             });
                         });
                     </script>
