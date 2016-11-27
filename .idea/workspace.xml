@@ -3,14 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="aaf67b7a-922c-423b-b44e-731664826991" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/90f55161e836cd3dc109868685d48c327e4d0782/_pages.scssc" afterPath="$PROJECT_DIR$/.sass-cache/90f55161e836cd3dc109868685d48c327e4d0782/_pages.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/90f55161e836cd3dc109868685d48c327e4d0782/_style.scssc" afterPath="$PROJECT_DIR$/.sass-cache/90f55161e836cd3dc109868685d48c327e4d0782/_style.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/94d07cad0926d237966d6d723df9f2f967ed6c3a/_contact.scssc" afterPath="$PROJECT_DIR$/.sass-cache/94d07cad0926d237966d6d723df9f2f967ed6c3a/_contact.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/all.css" afterPath="$PROJECT_DIR$/css/all.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/all.css.map" afterPath="$PROJECT_DIR$/css/all.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/accounts.php" afterPath="$PROJECT_DIR$/modules/accounts.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/includes/header.php" afterPath="$PROJECT_DIR$/modules/includes/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_header.scss" afterPath="$PROJECT_DIR$/sass/_header.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_pages.scss" afterPath="$PROJECT_DIR$/sass/_pages.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_style.scss" afterPath="$PROJECT_DIR$/sass/_style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/page/_contact.scss" afterPath="$PROJECT_DIR$/sass/page/_contact.scss" />
     </list>
     <ignored path="Interior_Website.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -61,21 +58,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="form1.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../../../project/2016/FE/STK/modules/register/individuals/form1.php">
+      <file leaf-file-name="_pages.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sass/_pages.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-255">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="64">
+              <caret line="236" column="26" selection-start-line="236" selection-start-column="26" selection-end-line="236" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_pages.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sass/_pages.scss">
+      <file leaf-file-name="_header.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sass/_header.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="206" column="25" selection-start-line="206" selection-start-column="25" selection-end-line="206" selection-end-column="25" />
+            <state relative-caret-position="408">
+              <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/includes/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="72" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="72" />
               <folding />
             </state>
           </provider>
@@ -91,31 +98,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_style.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_style.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/_style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
+            <state relative-caret-position="544">
               <caret line="79" column="34" selection-start-line="79" selection-start-column="34" selection-end-line="79" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="all.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sass/all.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contact.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/contact.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="82" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="82" />
               <folding />
             </state>
           </provider>
@@ -149,9 +136,7 @@
         <option value="$PROJECT_DIR$/../../../../project/2016/FE/STK/js/app/clean-blog.min.js" />
         <option value="$PROJECT_DIR$/sass/_font.scss" />
         <option value="$PROJECT_DIR$/sass/_reponsive.scss" />
-        <option value="$PROJECT_DIR$/modules/includes/header.php" />
         <option value="$PROJECT_DIR$/js/app/class.homepage.js" />
-        <option value="$PROJECT_DIR$/sass/_header.scss" />
         <option value="$PROJECT_DIR$/css/all.css.map" />
         <option value="$PROJECT_DIR$/modules/home.php" />
         <option value="$PROJECT_DIR$/css/all.css" />
@@ -175,9 +160,11 @@
         <option value="$PROJECT_DIR$/sass/page/_about.scss" />
         <option value="$PROJECT_DIR$/sass/page/_contact.scss" />
         <option value="$PROJECT_DIR$/sass/_variables.scss" />
-        <option value="$PROJECT_DIR$/sass/_pages.scss" />
         <option value="$PROJECT_DIR$/modules/accounts.php" />
         <option value="$PROJECT_DIR$/sass/_style.scss" />
+        <option value="$PROJECT_DIR$/sass/_pages.scss" />
+        <option value="$PROJECT_DIR$/modules/includes/header.php" />
+        <option value="$PROJECT_DIR$/sass/_header.scss" />
       </list>
     </option>
   </component>
@@ -264,11 +251,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sass" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="page" />
+              <option name="myItemId" value="modules" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -285,22 +268,8 @@
               <option name="myItemId" value="modules" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Interior_Website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Interior_Website" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
+              <option name="myItemId" value="includes" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -315,10 +284,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -446,12 +411,12 @@
       <workItem from="1480067899453" duration="1288000" />
       <workItem from="1480129392066" duration="8567000" />
       <workItem from="1480172275111" duration="7130000" />
-      <workItem from="1480217085422" duration="2561000" />
+      <workItem from="1480217085422" duration="3020000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147836000" />
+    <option name="totallyTimeSpent" value="148295000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -623,20 +588,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-23713">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/_header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/includes/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="39" column="80" selection-start-line="39" selection-start-column="80" selection-end-line="39" selection-end-column="80" />
         </state>
       </provider>
     </entry>
@@ -840,14 +791,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/_pages.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="206" column="25" selection-start-line="206" selection-start-column="25" selection-end-line="206" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/accounts.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
@@ -858,8 +801,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/_style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
+        <state relative-caret-position="544">
           <caret line="79" column="34" selection-start-line="79" selection-start-column="34" selection-end-line="79" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_pages.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="236" column="26" selection-start-line="236" selection-start-column="26" selection-end-line="236" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/includes/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="72" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
           <folding />
         </state>
       </provider>

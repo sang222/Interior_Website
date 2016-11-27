@@ -9,6 +9,11 @@
                     <div class="navigation pull-right list-inline">
                         <ul class="list-unstyled list-inline inline list">
                             <li><a href="#" class="cls-follow">Follow me</a></li>
+                            <li class="cls-account">
+                                <a href="" class="cls-follow">Sign In</a>
+                                <span class="cls-follow">|</span>
+                                <a href="" class="cls-follow">Register</a>
+                            </li>
                             <li><a href=""><img src="images/icon-search.png"></a></li>
                             <li><a href=""><img src="images/icon-cart.png"></a></li>
                         </ul>
