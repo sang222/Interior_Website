@@ -37,9 +37,7 @@
 	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
 	<!-- Filter -->
-	<!--<link rel="stylesheet" href="vendor/content-filter/css/style.css" type="text/css">-->
-	<script type="text/javascript" href="vendor/Filterizr-master/src/jquery.filterizr.js"></script>
-	<script type="text/javascript" href="vendor/content-filter/js/jquery.mixitup.min.js"></script>
+	<script type="text/javascript" href="vendor/mixitup-master/src/jquery.mixitup.js"></script>
 
 
 	<!-- SiteMain -->
