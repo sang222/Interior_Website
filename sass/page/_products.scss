@@ -1,8 +1,8 @@
-.products {
+.products-common {
 
   .inner {
 
-    .nav-tabs {
+    .nav-controls {
       border: 0;
       width: 100%;
 
@@ -34,7 +34,8 @@
 
       }
 
-      &.tab-right {
+      .tab-right {
+        border-bottom: 0;
 
         li {
 
@@ -61,7 +62,6 @@
 
       .tab-pane {
         margin-top: 50px;
-        display: block;
 
         &.list {
 
@@ -124,84 +124,84 @@
 
         }
 
-        .product-item {
-          min-height: 400px;
-          position: relative;
+      }
+      
+    }
 
-          .product-box{
-            min-height: 235px;
-            position: relative;
-          }
+    .product-item {
+      min-height: 400px;
+      position: relative;
 
-          .description {
-            @include FontRegular($font-body);
-            color: $text;
-            padding-top: 15px;
-          }
+      .product-box{
+        min-height: 235px;
+        position: relative;
+      }
 
-          img {
-            display: table;
-            margin: 0 auto;
-          }
+      .description {
+        @include FontRegular($font-body);
+        color: $text;
+        padding-top: 15px;
+      }
 
-          .bg-gray {
-            position: absolute;
-            content: '';
-            width: 100%;
-            height: 70px;
-            background: $box;
-            top: -32px;
-            left: 0;
-            z-index: -1;
-          }
+      img {
+        display: table;
+        margin: 0 auto;
+      }
 
-          &-content {
-            padding: 50px 0 50px 15px;
-            position: relative;
-            margin-left: 15px;
+      .bg-gray {
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 70px;
+        background: $box;
+        top: -32px;
+        left: 0;
+        z-index: -1;
+      }
 
-            p, span:not(.cart p) {
-              @include FontBold($font-nav);
-              color: $text-title;
-            }
+      &-content {
+        padding: 50px 0 50px 15px;
+        position: relative;
+        margin-left: 15px;
 
-            span:first-of-type {
-              @include FontRegular($font-nav);
-              margin-right: 10px;
-            }
+        p, span:not(.cart p) {
+          @include FontBold($font-nav);
+          color: $text-title;
+        }
 
-            &:before {
-              content: '';
-              position: absolute;
-              width: 1px;
-              height: 82px;
-              background: #000;
-              left: 0;
-              top: 25px;
-            }
+        span:first-of-type {
+          @include FontRegular($font-nav);
+          margin-right: 10px;
+        }
 
-          }
-
-          .text-sale {
-            @include FontBold(13px);
-            color: #fff;
-            padding: 4px 12px 11px 13px;
-            background: url(../images/text-sale.png) no-repeat;
-            position: absolute;
-            top: 0;
-            right: 0;
-          }
-
-
-
-          &:hover > .cart {
-            display: block;
-          }
-
+        &:before {
+          content: '';
+          position: absolute;
+          width: 1px;
+          height: 82px;
+          background: #000;
+          left: 0;
+          top: 25px;
         }
 
       }
-      
+
+      .text-sale {
+        @include FontBold(13px);
+        color: #fff;
+        padding: 4px 12px 11px 13px;
+        background: url(../images/text-sale.png) no-repeat;
+        position: absolute;
+        top: 0;
+        right: 0;
+      }
+
+
+
+      &:hover > .cart {
+        display: block;
+      }
+
     }
 
     .form-control {

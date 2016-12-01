@@ -132,6 +132,66 @@ section.page {
 
   }
 
+  &.details {
+
+    .row.details {
+      margin-bottom: 90px;
+    }
+
+    .inner {
+
+      .row {
+
+        .cart-deails {
+
+          .form-control {
+            width: 100%;
+            margin-left: 0;
+          }
+        }
+
+        &.description {
+
+          .tab-content {
+            padding: 27px 30px;
+            border: 1px solid #e1e1e1;
+            border-top-color: transparent;
+
+            .tab-pane {
+              margin-top: 0;
+            }
+
+          }
+
+          .nav-tabs>li {
+
+            &.active>a {
+              border-bottom-color: transparent;
+              /*background: #000;*/
+              @include FontBold($font-body);
+              /*color: #fff;*/
+            }
+
+            a {
+              @include FontRegular($font-body);
+              color: $text-title;/*
+              border: 1px solid #e1e1e1;
+              @include borderCorner(0);*/
+            }
+
+          }
+
+        }
+
+        &.bread.team {
+          padding-top: 85px;
+        }
+
+      }
+    }
+
+  }
+
   .flex {
     @include flexbox();
     @include flex-flow(row wrap);

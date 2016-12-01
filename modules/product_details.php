@@ -1,4 +1,4 @@
-<section class="page details" id="details">
+<section class="page details products-common" id="details">
     <div class="inner">
         <div class="container">
             <div class="row bread">
@@ -15,7 +15,7 @@
             </div>
             <div class="row details">
                 <div class="col-md-4 carousel-product-details">
-                    <div class="carousel-wrap">
+                    <!--<div class="carousel-wrap">
                         <div class="bg-gay"></div>
                     </div>
                     <div class="slider-for">
@@ -44,19 +44,16 @@
                     <script>
                         $(document).ready(function(){
                             $('.slider-for').slick({
-                                slidesToShow: 3,
                                 fade: true,
-                                asNavFor: '.slider-nav',
-                                swipeToSlide: true
+                                asNavFor: '.slider-nav'
                             });
                             $('.slider-nav').slick({
                                 slidesToShow: 3,
                                 slidesToScroll: 1,
-                                asNavFor: '.slider-for',
-                                arrows: true
+                                asNavFor: '.slider-for'
                             });
                         });
-                    </script>
+                    </script>-->
                 </div>
                 <div class="col-md-5">
                     <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis dolor repellendus quis nostrum.
@@ -70,7 +67,7 @@
                         <li><a href=""><img src="images/icon-google.png" alt=""></a></li>
                     </ul>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 cart-deails">
                     <div class="price">
                         <span class="price-detail price-retail">$ 140.00</span>
                         <span class="price-detail price-sale">$ 130.00</span>
@@ -119,6 +116,114 @@
                         <div class="form-group clearfix">
                             <div class="col-md-12">
                                 <a href="" class="btn btn-contact text-uppercase full">add to wishlist</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row description">
+                <div class="col-md-12">
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs nav-description" role="tablist">
+                        <li role="presentation" class="active"><a href="#desc" aria-controls="desc" role="tab" data-toggle="tab">Description</a></li>
+                        <li role="presentation"><a href="#info" aria-controls="info" role="tab" data-toggle="tab">Additional Infomation</a></li>
+                        <li role="presentation"><a href="#review" aria-controls="review" role="tab" data-toggle="tab">Reviews</a></li>
+                    </ul>
+
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane fade in active" id="desc">
+                            <p class="no-margin">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+                            <br/><br/>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
+                            <br/><br/>Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,
+                            </p>
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade" id="info">
+                            <p>test</p>
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade" id="review">
+                            <p>test</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row bread team">
+                <div class="col-md-12">
+                    <span class="page-title"><strong>Lastest</strong> Products</span>
+                </div>
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-3 product-item" data-category="list">
+                            <div class="product-box middle-img">
+                                <img class="img-responsive" src="images/lastest/img-1.png" alt="">
+                            </div>
+                            <div class="relative">
+                                <div class="product-item-content">
+                                    <p class="text-uppercase">mid centure</p>
+                                    <span><del>$ 160.00</del></span>
+                                    <span>$ 145.00</span>
+                                </div>
+                                <div class="cart">
+                                    <div class="col-xs-8 cart-block no-padding-left no-padding-right">
+                                        <p class="no-margin text-center">add to cart</p>
+                                    </div>
+                                    <div class="col-xs-2 cart-block no-padding-left no-padding-right">
+                                        <img src="images/icon-like.png" alt="" class="center-block">
+                                    </div>
+                                    <div class="col-xs-2 cart-block no-padding-left no-padding-right">
+                                        <img src="images/icon-view.png" alt="" class="center-block">
+                                    </div>
+                                </div>
+                                <div class="bg-gray"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 product-item">
+                            <div class="product-box middle-img">
+                                <span class="text-sale text-uppercase">sale</span>
+                                <img class="img-responsive" src="images/lastest/img-2.png" alt="">
+                            </div>
+                            <div class="relative">
+                                <div class="product-item-content">
+                                    <p class="text-uppercase">mid centure</p>
+                                    <span>$ 180.00</span>
+                                </div>
+                                <!--<div class="cart">
+                                    <div class="col-xs-8 cart-block no-padding-left no-padding-right">
+                                        <p class="no-margin text-center">add to cart</p>
+                                    </div>
+                                    <div class="col-xs-2 cart-block no-padding-left no-padding-right">
+                                        <img src="images/icon-like.png" alt="" class="center-block">
+                                    </div>
+                                    <div class="col-xs-2 cart-block no-padding-left no-padding-right">
+                                        <img src="images/icon-view.png" alt="" class="center-block">
+                                    </div>
+                                </div>-->
+                                <div class="bg-gray"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 product-item">
+                            <div class="product-box middle-img">
+                                <img class="img-responsive" src="images/lastest/img-3.png" alt="">
+                            </div>
+                            <div class="relative">
+                                <div class="product-item-content">
+                                    <p class="text-uppercase">mid centure</p>
+                                    <span>$ 180.00</span>
+                                </div>
+                                <div class="bg-gray"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 product-item">
+                            <div class="product-box middle-img">
+                                <span class="text-sale text-uppercase">sale</span>
+                                <img class="img-responsive" src="images/lastest/img-4.png" alt="">
+                            </div>
+                            <div class="relative">
+                                <div class="product-item-content">
+                                    <p class="text-uppercase">mid centure</p>
+                                    <span>$ 180.00</span>
+                                </div>
+                                <div class="bg-gray"></div>
                             </div>
                         </div>
                     </div>
