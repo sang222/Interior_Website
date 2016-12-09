@@ -54,11 +54,18 @@ var SiteMain = (function() {
 	}*/
 
 	$(document).ready(function() {
+
+
 		$('.bxslider-details').bxSlider({
 			pagerCustom: '#bx-pager',
 			mode: 'fade',
 			control: false
 
+		});
+
+		$('.remove').click(function (event) {
+			event.preventDefault();
+			$(this).parents('.line-bottom').remove();
 		});
 	});
 

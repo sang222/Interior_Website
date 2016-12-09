@@ -81,7 +81,7 @@
                                     <p class="text-center text-uppercase">$ 169.00</p>
                                 </div>
                                 <div class="col-md-3">
-                                    <img src="images/cart/remove.png" alt="" id="remove" class="center-block remove">
+                                    <img src="images/cart/remove.png" alt="" class="center-block remove">
                                 </div>
                             </div>
                         </div>
@@ -117,7 +117,7 @@
                                     <p class="text-center text-uppercase">$ 169.00</p>
                                 </div>
                                 <div class="col-md-3">
-                                    <img src="images/cart/remove.png" alt="" id="remove" class="center-block remove">
+                                    <img src="images/cart/remove.png" alt="" class="center-block remove">
                                 </div>
                             </div>
                         </div>
