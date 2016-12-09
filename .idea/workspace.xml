@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aaf67b7a-922c-423b-b44e-731664826991" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/product-sidebar.php" afterPath="$PROJECT_DIR$/modules/product-sidebar.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/page/_products.scss" afterPath="$PROJECT_DIR$/sass/page/_products.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/94d07cad0926d237966d6d723df9f2f967ed6c3a/_product-details.scssc" afterPath="$PROJECT_DIR$/.sass-cache/94d07cad0926d237966d6d723df9f2f967ed6c3a/_product-details.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/all.css" afterPath="$PROJECT_DIR$/css/all.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/all.css.map" afterPath="$PROJECT_DIR$/css/all.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app/class.SiteMain.js" afterPath="$PROJECT_DIR$/js/app/class.SiteMain.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/product_details.php" afterPath="$PROJECT_DIR$/modules/product_details.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/page/_product-details.scss" afterPath="$PROJECT_DIR$/sass/page/_product-details.scss" />
     </list>
     <ignored path="Interior_Website.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,7 +29,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="_products.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_products.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/page/_products.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
@@ -46,16 +51,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sass/_variables.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="products.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/products.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -69,8 +64,18 @@
       <file leaf-file-name="product_details.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/product_details.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3689">
-              <caret line="217" column="82" selection-start-line="217" selection-start-column="82" selection-end-line="217" selection-end-column="82" />
+            <state relative-caret-position="546">
+              <caret line="43" column="74" selection-start-line="43" selection-start-column="74" selection-end-line="43" selection-end-column="74" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_product-details.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sass/page/_product-details.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="546">
+              <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -79,48 +84,8 @@
       <file leaf-file-name="class.SiteMain.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/app/class.SiteMain.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1037">
-              <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="product-sidebar.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/product-sidebar.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="47" column="60" selection-start-line="47" selection-start-column="60" selection-end-line="47" selection-end-column="60" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sidebar.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/includes/sidebar.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2125">
-              <caret line="125" column="53" selection-start-line="125" selection-start-column="53" selection-end-line="125" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="class.homepage.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/app/class.homepage.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="289">
+              <caret line="59" column="26" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -165,21 +130,21 @@
         <option value="$PROJECT_DIR$/modules/includes/header.php" />
         <option value="$PROJECT_DIR$/sass/_header.scss" />
         <option value="$PROJECT_DIR$/modules/accounts.php" />
-        <option value="$PROJECT_DIR$/sass/page/_product-details.scss" />
         <option value="$USER_HOME$/Downloads/CssCheckboxKit_1480254350050910/demo.html" />
         <option value="$PROJECT_DIR$/sass/_checkbox.scss" />
         <option value="$PROJECT_DIR$/sass/_style.scss" />
         <option value="$PROJECT_DIR$/sass/_sidebar.scss" />
         <option value="$PROJECT_DIR$/modules/includes/sidebar.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/sass/all.scss" />
         <option value="$PROJECT_DIR$/sass/_slick-details.scss" />
         <option value="$PROJECT_DIR$/sass/_pages.scss" />
         <option value="$PROJECT_DIR$/modules/products.php" />
-        <option value="$PROJECT_DIR$/modules/product_details.php" />
-        <option value="$PROJECT_DIR$/js/app/class.SiteMain.js" />
         <option value="$PROJECT_DIR$/modules/product-sidebar.php" />
         <option value="$PROJECT_DIR$/sass/page/_products.scss" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/js/app/class.SiteMain.js" />
+        <option value="$PROJECT_DIR$/modules/product_details.php" />
+        <option value="$PROJECT_DIR$/sass/page/_product-details.scss" />
       </list>
     </option>
   </component>
@@ -474,12 +439,12 @@
       <workItem from="1480577670175" duration="689000" />
       <workItem from="1480647661588" duration="126000" />
       <workItem from="1481183043650" duration="10000" />
-      <workItem from="1481274136903" duration="1259000" />
+      <workItem from="1481274136903" duration="7664000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="181969000" />
+    <option name="totallyTimeSpent" value="188374000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -670,13 +635,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/page/_product-details.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/content-filter/js/jquery.mixitup.min.js" />
     <entry file="file://$PROJECT_DIR$/vendor/content-filter/js/modernizr.js" />
     <entry file="file://$PROJECT_DIR$/vendor/content-filter/js/main.js" />
@@ -769,14 +727,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/includes/sidebar.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2125">
@@ -785,34 +735,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/products.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="47" column="55" selection-start-line="47" selection-start-column="55" selection-end-line="47" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/_pages.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1158">
           <caret line="246" column="20" selection-start-line="246" selection-start-column="20" selection-end-line="246" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/app/class.SiteMain.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/product_details.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3689">
-          <caret line="217" column="82" selection-start-line="217" selection-start-column="82" selection-end-line="217" selection-end-column="82" />
           <folding />
         </state>
       </provider>
@@ -832,6 +758,46 @@
           <folding>
             <marker date="1481275398090" expanded="true" signature="3587:3593" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="43" column="4" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app/class.SiteMain.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="59" column="26" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/products.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="47" column="55" selection-start-line="47" selection-start-column="55" selection-end-line="47" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/product_details.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="43" column="74" selection-start-line="43" selection-start-column="74" selection-end-line="43" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/page/_product-details.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>

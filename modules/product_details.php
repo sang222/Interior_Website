@@ -15,45 +15,36 @@
             </div>
             <div class="row details">
                 <div class="col-md-4 carousel-product-details">
-                    <!--<div class="carousel-wrap">
-                        <div class="bg-gay"></div>
+                    <div class="carousel-wrap">
+                        <ul class="bxslider-details">
+                            <li>
+                                <img src="images/carousel-img.png" class="img-responsive center-block" />
+                                <div class="bg-gay"></div>
+                            </li>
+                            <li>
+                                <img src="images/carousel-img.png" class="img-responsive center-block" />
+                                <div class="bg-gay"></div>
+                            </li>
+                            <li>
+                                <img src="images/carousel-img.png" class="img-responsive center-block" />
+                                <div class="bg-gay"></div>
+                            </li>
+                        </ul>
+                        <div id="bx-pager">
+                            <a data-slide-index="0" href="">
+                                <div class="bg-gay"></div>
+                                <img src="images/detail/carousel-details.png" class="img-responsive center-block" alt="">
+                            </a>
+                            <a data-slide-index="1" href="">
+                                <div class="bg-gay"></div>
+                                <img src="images/detail/carousel-details-1.png" class="img-responsive center-block" alt="">
+                            </a>
+                            <a data-slide-index="2" href="">
+                                <div class="bg-gay"></div>
+                                <img src="images/detail/carousel-details-2.png" class="img-responsive center-block" alt="">
+                            </a>
+                        </div>
                     </div>
-                    <div class="slider-for">
-                        <img src="images/carousel-img.png" alt="" class="center-block">
-                        <img src="images/carousel-img.png" alt="" class="center-block">
-                        <img src="images/carousel-img.png" alt="" class="center-block">
-                    </div>
-                    <div class="slider-nav">
-                        <div class="slider-nav-box">
-                            <img src="images/slider-nav-1.png" class="center-block" alt="">
-                            <div class="bg-gay"></div>
-                        </div>
-                        <div class="slider-nav-box">
-                            <img src="images/slider-nav-2.png" class="center-block" alt="">
-                            <div class="bg-gay"></div>
-                        </div>
-                        <div class="slider-nav-box">
-                            <img src="images/slider-nav-3.png" class="center-block" alt="">
-                            <div class="bg-gay"></div>
-                        </div>
-                        <div class="slider-nav-box">
-                            <img src="images/slider-nav-3.png" class="center-block" alt="">
-                            <div class="bg-gay"></div>
-                        </div>
-                    </div>
-                    <script>
-                        $(document).ready(function(){
-                            $('.slider-for').slick({
-                                fade: true,
-                                asNavFor: '.slider-nav'
-                            });
-                            $('.slider-nav').slick({
-                                slidesToShow: 3,
-                                slidesToScroll: 1,
-                                asNavFor: '.slider-for'
-                            });
-                        });
-                    </script>-->
                 </div>
                 <div class="col-md-5">
                     <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis dolor repellendus quis nostrum.

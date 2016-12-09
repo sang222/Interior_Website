@@ -41,8 +41,8 @@
 
 
 	<!-- SiteMain -->
-	<!--<script src="js/app/class.SiteMain.js"></script>
-	<script src="js/app/class.homepage.js"></script>-->
+	<script src="js/app/class.SiteMain.js"></script>
+	<!--<script src="js/app/class.homepage.js"></script>-->
 
 </head>
 <?php
