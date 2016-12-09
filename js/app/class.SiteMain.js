@@ -1,3 +1,4 @@
+/*
 var SiteMain = (function() {
 	//PARAMATER
 	var size = 1;
@@ -65,3 +66,4 @@ $(document).ready( function() {
 	SiteMain.init();
 });
 
+*/
