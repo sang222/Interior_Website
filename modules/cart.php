@@ -22,13 +22,13 @@
                     <div class="row cart--details--title line-bottom">
                         <div class="col-md-6">
                             <div class="row">
-                                <div class="col-md-3">
+                                <div class="col-md-2">
                                     <p class="text-center text-uppercase">product</p>
                                 </div>
                                 <div class="col-md-3">
                                     <p class="text-center text-uppercase">name</p>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-7">
                                     <p class=" text-uppercase">description</p>
                                 </div>
                             </div>
@@ -50,10 +50,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row cart--details--product line-bottom">
+                    <div class="row cart--details--item line-bottom">
                         <div class="col-md-6">
                             <div class="row">
-                                <div class="col-md-3 no-padding">
+                                <div class="col-md-2 no-padding">
                                     <div class="pager-common">
                                         <div class="bg-gay"></div>
                                         <img src="images/cart/item01.png" class="img-responsive center-block" alt="">
@@ -62,7 +62,7 @@
                                 <div class="col-md-3">
                                     <p class="text-center bold">Mid Century</p>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-7">
                                     <p class="">
                                         Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
                                     </p>
@@ -75,13 +75,49 @@
                                     <p class="text-center text-uppercase">$ 169.00</p>
                                 </div>
                                 <div class="col-md-4">
-                                    <input type="number"  value="1" class="form-control">
+                                    <input type="number"  value="1" class="form-control" />
                                 </div>
                                 <div class="col-md-3">
-                                    <p class="text-center text-uppercase">total</p>
+                                    <p class="text-center text-uppercase">$ 169.00</p>
                                 </div>
                                 <div class="col-md-3">
-                                    <p class="text-center text-uppercase">remove</p>
+                                    <img src="images/cart/remove.png" alt="" id="remove" class="center-block remove">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row cart--details--item line-bottom">
+                        <div class="col-md-6">
+                            <div class="row">
+                                <div class="col-md-2 no-padding">
+                                    <div class="pager-common">
+                                        <div class="bg-gay"></div>
+                                        <img src="images/cart/item02.png" class="img-responsive center-block" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <p class="text-center bold">Mid Century</p>
+                                </div>
+                                <div class="col-md-7">
+                                    <p class="">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <p class="text-center text-uppercase">$ 169.00</p>
+                                </div>
+                                <div class="col-md-4">
+                                    <input type="number"  value="1" class="form-control" />
+                                </div>
+                                <div class="col-md-3">
+                                    <p class="text-center text-uppercase">$ 169.00</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="images/cart/remove.png" alt="" id="remove" class="center-block remove">
                                 </div>
                             </div>
                         </div>
