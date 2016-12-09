@@ -16,7 +16,7 @@
                 <div class="col-md-12">
                     <main class="cd-main-content">
                         <!-- Nav tabs -->
-                        <ul class="nav nav-tabs inline">
+                        <ul class="nav nav-tabs inline nav-controls">
                             <li class="active" data-shuffle><a aria-controls="sofa">Sofa</a></li>
                             <li data-shuffle><a href="">Armchair</a></li>
                             <li data-shuffle><a href="">Sofa Table</a></li>
@@ -45,7 +45,7 @@
                         </ul>
                         <!-- Tab panes -->
                         <div class="tab-content">
-                            <div class="tab-pane list">
+                            <div class="tab-pane list inline">
                                 <div class="row">
                                     <div class="col-md-3">
                                         <?php include ('modules/includes/sidebar.php'); ?>
