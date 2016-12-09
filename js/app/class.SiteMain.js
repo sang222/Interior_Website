@@ -11,7 +11,7 @@ var SiteMain = (function() {
 
 	//INIT	
 	function init(){
-		clsHomepage.init();
+		//clsHomepage.init();
 		//initEvents();
 		//check_button();
 		//check_size();

@@ -36,10 +36,9 @@ section.details {
 
         .bx-controls {
           position: absolute;
-          right: -120px;
+          right: -105px;
           top: 200px;
-          overflow: auto;
-          height: 15px;
+          height: 32px;
           width: 74px;
 
           .bx-prev {
@@ -54,9 +53,6 @@ section.details {
               width: 1px;
               height: 100%;
               background: #8a8a8a;
-              @include Rorate(90);
-              top: -40px;
-              left: 16px;
 
             }
 
