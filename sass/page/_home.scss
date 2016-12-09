@@ -130,4 +130,25 @@
 
   }
 
+  .carouselbottom {
+
+
+
+    &--colleft {
+      width: 50%;
+      display: inline-block;
+      background: $box;
+    }
+
+    &--colright {
+      display: inline-block;
+      width: 50%;
+      .bread {
+        padding-top: 0;
+      }
+
+    }
+
+  }
+
 }

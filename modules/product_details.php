@@ -14,7 +14,7 @@
                 </div>
             </div>
             <div class="row details">
-                <div class="col-md-4 carousel-product-details">
+                <div class="col-md-4 carousel-product-details control-common">
                     <div class="carousel-wrap">
                         <ul class="bxslider-details">
                             <li>
@@ -30,7 +30,7 @@
                                 <div class="bg-gay"></div>
                             </li>
                         </ul>
-                        <div id="bx-pager">
+                        <div id="bx-pager" class="pager-common">
                             <a data-slide-index="0" href="">
                                 <div class="bg-gay"></div>
                                 <img src="images/detail/carousel-details.png" class="img-responsive center-block" alt="">

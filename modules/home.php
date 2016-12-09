@@ -63,5 +63,31 @@
 				</div>
 			</div>
 		</div>
+		<div class="carouselbottom control-common">
+			<div class="carouselbottom--colleft pull-left">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-12">
+							<p>sfnsdkjfkj</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="carouselbottom--colright">
+				<div class="container-fluid">
+					<div class="row bread">
+						<div class="col-md-6">
+							<h2 class="page-title">Top <strong>Products</strong></h2>
+						</div>
+						<div class="col-md-9">
+
+						</div>
+						<div class="col-md-3">
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 </section>

@@ -257,6 +257,74 @@ section.page {
 
   }
 
+  .pager-common {
+    position: absolute;
+    right: -390px;
+    bottom: 0;
+    width: 100%;
+
+    a {
+      width: 100px;
+      margin-right: 12px;
+      position: relative;
+      display: inline-block;
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      &:hover, &:focus {
+        text-decoration: none;
+      }
+
+    }
+
+    .bg-gay {
+      position: absolute;
+      width: 100%;
+      background: $box;
+      top: 50%;
+      margin-top: -100px;
+      z-index: -1;
+    }
+  }
+
+  .control-common {
+
+    .bx-controls {
+      position: absolute;
+      right: -105px;
+      top: 200px;
+      height: 32px;
+      width: 74px;
+
+      .bx-prev {
+        left: 0;
+        background: url('../images/detail/left.png') no-repeat;
+        height: 15px;
+
+        &:after {
+          content: '';
+          position: absolute;
+          right: 0;
+          width: 1px;
+          height: 100%;
+          background: #8a8a8a;
+
+        }
+
+      }
+
+      .bx-next {
+        right: 0;
+        background: url('../images/detail/right.png') no-repeat;
+        height: 15px;
+      }
+
+    }
+
+  }
+
   .form-control, textarea {
     @include borderCorner(0);
     height: 43px;
