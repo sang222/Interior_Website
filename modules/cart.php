@@ -20,7 +20,7 @@
             <div class="cart--details">
                 <div class="container-fluid">
                     <div class="row cart--details--title line-bottom">
-                        <div class="col-md-6">
+                        <div class="col-md-7">
                             <div class="row">
                                 <div class="col-md-2">
                                     <p class="text-center text-uppercase">product</p>
@@ -33,12 +33,12 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-5">
                             <div class="row">
-                                <div class="col-md-2">
+                                <div class="col-md-3">
                                     <p class="text-center text-uppercase">price</p>
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-md-3">
                                     <p class="text-center text-uppercase">quantity</p>
                                 </div>
                                 <div class="col-md-3">
@@ -51,7 +51,7 @@
                         </div>
                     </div>
                     <div class="row cart--details--item line-bottom">
-                        <div class="col-md-6">
+                        <div class="col-md-7">
                             <div class="row">
                                 <div class="col-md-2 no-padding">
                                     <div class="pager-common">
@@ -69,12 +69,12 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-5">
                             <div class="row">
-                                <div class="col-md-2">
+                                <div class="col-md-3">
                                     <p class="text-center text-uppercase">$ 169.00</p>
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-md-3">
                                     <input type="number"  value="1" class="form-control" />
                                 </div>
                                 <div class="col-md-3">
@@ -87,7 +87,7 @@
                         </div>
                     </div>
                     <div class="row cart--details--item line-bottom">
-                        <div class="col-md-6">
+                        <div class="col-md-7">
                             <div class="row">
                                 <div class="col-md-2 no-padding">
                                     <div class="pager-common">
@@ -105,12 +105,12 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-5">
                             <div class="row">
-                                <div class="col-md-2">
+                                <div class="col-md-3">
                                     <p class="text-center text-uppercase">$ 169.00</p>
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-md-3">
                                     <input type="number"  value="1" class="form-control" />
                                 </div>
                                 <div class="col-md-3">
@@ -120,6 +120,17 @@
                                     <img src="images/cart/remove.png" alt="" class="center-block remove">
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                    <div class="row cart--details--count">
+                        <div class="col-md-6">
+                            <div class="col-md-3">
+                                <p>test</p>
+                            </div>
+                            <div class="col-md-9"></div>
+                        </div>
+                        <div class="col-md-6">
+
                         </div>
                     </div>
                 </div>
