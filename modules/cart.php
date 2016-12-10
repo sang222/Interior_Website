@@ -122,15 +122,71 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row cart--details--count">
-                        <div class="col-md-6">
-                            <div class="col-md-3">
-                                <p>test</p>
-                            </div>
-                            <div class="col-md-9"></div>
-                        </div>
-                        <div class="col-md-6">
+                </div>
+            </div>
 
+            <div class="row cart--details--count">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <div class="row margin-bottom-20">
+                                <div class="form-group">
+                                    <div class="col-md-8">
+                                        <input type="text" class="form-control" placeholder="Coupon Code">
+                                    </div>
+                                    <div class="col-md-4 no-padding-left">
+                                        <a href="" class="btn-contact text-center text-uppercase">apply</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <p class="text-uppercase text-title margin-bottom-30">shipping free</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <select name="" id="" class="form-control">
+                                        <option value="">United Kingdom</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="text" placeholder="State / Country" class="form-control">
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="text" placeholder="PostCode / Zip" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                        <!--<div class="col-md-6"></div>-->
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-5"></div>
+                        <div class="col-md-7">
+                            <div class="border">
+                                <div class="black">
+                                    <p class="text-uppercase text-title no-margin">cart total</p>
+                                </div>
+                                <div class="border--content">
+                                    <div class="border--content__product">
+                                        <span>Total Product:</span>
+                                        <span class="pull-right">$674.00</span>
+                                    </div>
+                                    <div class="border--content__shipping margin-bottom-20">
+                                        <span>Total Shipping:</span>
+                                        <span class="pull-right">$30.00</span>
+                                    </div>
+                                    <div class="border--content__total margin-bottom-25 ">
+                                        <span class="text-title text-uppercase font-style">Total:</span>
+                                        <span class="pull-right text-title">$704.00</span>
+                                    </div>
+                                    <div class="border--content__btn">
+                                        <a href="" class="btn-contact text-uppercase text-center">proceed to checkout</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

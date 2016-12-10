@@ -101,4 +101,42 @@ section.cart {
     }
 
   }
+
+  .btn-contact {
+    width: 100%;
+    padding: 8px 20px;
+  }
+
+  .form-control {
+    height: 37px;
+    margin-bottom: 11px;
+  }
+
+  .border {
+    border: 1px solid #e1e1e1;
+    
+    .black {
+      background: #000;
+      padding: 15px 0 15px 20px;
+
+      .text-title {
+        color: #fff;
+        font-size: 16px;
+      }
+
+    }
+
+    &--content {
+      padding: 20px;
+
+      p, span {
+        margin: 0;
+      }
+
+      & >div {
+        margin-bottom: 10px;
+      }
+    }
+    
+  }
 }
