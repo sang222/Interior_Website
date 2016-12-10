@@ -67,6 +67,7 @@
 
           .product-item {
             min-height: 300px;
+            @include animate(0.5s);
 
             /*.bg-gray {
               top: inherit;

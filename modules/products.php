@@ -49,7 +49,7 @@
 								<div class="row">
 									<div class="col-md-12">
 										<div class="row">
-											<div class="col-md-3 product-item" data-category="list">
+											<div class="col-md-3 product-item">
 												<div class="product-box middle-img">
 													<span class="text-sale text-uppercase">sale</span>
 													<img class="img-responsive" src="images/products/product-img-1.png" alt="">
@@ -71,6 +71,29 @@
 															<img src="images/icon-view.png" alt="" class="center-block">
 														</div>
 													</div>
+													<div class="bg-gray"></div>
+												</div>
+											</div>
+											<div class="col-md-3 product-item">
+												<div class="product-box middle-img">
+													<img class="img-responsive" src="images/products/product-img-2.png" alt="">
+												</div>
+												<div class="relative">
+													<div class="product-item-content">
+														<p class="text-uppercase">mid centure</p>
+														<span>$ 180.00</span>
+													</div>
+													<!--<div class="cart">
+                                                        <div class="col-xs-8 cart-block no-padding-left no-padding-right">
+                                                            <p class="no-margin text-center">add to cart</p>
+                                                        </div>
+                                                        <div class="col-xs-2 cart-block no-padding-left no-padding-right">
+                                                            <img src="images/icon-like.png" alt="" class="center-block">
+                                                        </div>
+                                                        <div class="col-xs-2 cart-block no-padding-left no-padding-right">
+                                                            <img src="images/icon-view.png" alt="" class="center-block">
+                                                        </div>
+                                                    </div>-->
 													<div class="bg-gray"></div>
 												</div>
 											</div>

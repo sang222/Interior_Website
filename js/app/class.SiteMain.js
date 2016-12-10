@@ -1,23 +1,23 @@
 var SiteMain = (function() {
 	//PARAMATER
-	/*var size = 1;
+	var size = 1;
 	var button = 1;
-	var button_class = "gallery-header-center-right-links-current";
+	var button_class = "active";
 	var normal_size_class = "gallery-content-center-normal";
 	var full_size_class = "gallery-content-center-full";
 	var $container = $('#gallery-content-center');
 
-	$container.isotope({itemSelector : 'img'});*/
+	$container.isotope({itemSelector : 'img'});
 
 	//INIT	
 	function init(){
 		//clsHomepage.init();
-		//initEvents();
-		//check_button();
-		//check_size();
+		initEvents();
+		check_button();
+		check_size();
 	}
 
-	/*function initEvents(){
+	function initEvents(){
 		$("#filter-all").click(function() { $container.isotope({ filter: '.all' }); button = 1; check_button(); });
 		$("#filter-studio").click(function() {  $container.isotope({ filter: '.studio' }); button = 2; check_button();  });
 		$("#filter-landscape").click(function() {  $container.isotope({ filter: '.landscape' }); button = 3; check_button();  });
@@ -51,7 +51,7 @@ var SiteMain = (function() {
 			$("#gallery-header-center-left-icon").html('<span class="iconb" data-icon="&#xe23b;"></span>');
 		}
 		$container.isotope({itemSelector : 'img'});
-	}*/
+	}
 
 	$(document).ready(function() {
 
