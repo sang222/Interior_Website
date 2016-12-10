@@ -39,10 +39,6 @@ section.cart {
 
       }
 
-      &:last-child {
-        margin-bottom: 35px;
-      }
-
     }
 
     p.bold {
@@ -138,5 +134,9 @@ section.cart {
       }
     }
     
+  }
+
+  .cart--details--count {
+    margin-top: 35px;
   }
 }

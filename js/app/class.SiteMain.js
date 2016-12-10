@@ -65,8 +65,10 @@ var SiteMain = (function() {
 
 		$('.remove').click(function (event) {
 			event.preventDefault();
-			$(this).parents('.line-bottom').remove();
+			$(this).parents('.line-bottom').addClass('wow animated slideOutUp hidden-animation');
 		});
+
+		new WOW().init();
 	});
 
 	//FUNCTION

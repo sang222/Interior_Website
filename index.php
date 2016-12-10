@@ -41,6 +41,9 @@
 	<!-- Bootstrap Core JavaScript -->
 	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
+	<!-- Wow Animatied-->
+	<script type="text/javascript" src="js/lib/wow.js"></script>
+
 	<!-- Filter -->
 	<script type="text/javascript" href="vendor/mixitup-master/src/jquery.mixitup.js"></script>
 
