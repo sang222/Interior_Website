@@ -3,52 +3,54 @@ var SiteMain = (function() {
 	var size = 1;
 	var button = 1;
 	var button_class = "active";
-	var normal_size_class = "gallery-content-center-normal";
-	var full_size_class = "gallery-content-center-full";
-	var $container = $('#gallery-content-center');
+	var list = "list";
+	var grid = "grid";
+	var $container = $('#product-items');
 
 	$container.isotope({itemSelector : 'img'});
 
-	//INIT	
+	//INIT
 	function init(){
 		//clsHomepage.init();
 		initEvents();
 		check_button();
-		check_size();
+		check_type();
 	}
 
 	function initEvents(){
-		$("#filter-all").click(function() { $container.isotope({ filter: '.all' }); button = 1; check_button(); });
-		$("#filter-studio").click(function() {  $container.isotope({ filter: '.studio' }); button = 2; check_button();  });
-		$("#filter-landscape").click(function() {  $container.isotope({ filter: '.landscape' }); button = 3; check_button();  });
-		$("#gallery-header-center-left-icon").click(function() { if(size==0){size=1;}else if(size==1){size=0;} check_size(); });
+		$("#filter-sofa").click(function() { $container.isotope({ filter: '.sofa' }); button = 1; check_button(); });
+		$("#filter-chair").click(function() {  $container.isotope({ filter: '.chair' }); button = 2; check_button();  });
+		$("#filter-table").click(function() {  $container.isotope({ filter: '.table' }); button = 3; check_button();  });
+		$("#filter-tivi").click(function() {  $container.isotope({ filter: '.tivi' }); button = 4; check_button();  });
+		$("#filter-shoes").click(function() {  $container.isotope({ filter: '.shoes' }); button = 5; check_button();  });
 	}
 
 	function check_button(){
-		$('.gallery-header-center-right-links').removeClass(button_class);
+		$('.active').removeClass(button_class);
 		if(button==1){
-			$("#filter-all").addClass(button_class);
-			$("#gallery-header-center-left-title").html('All Galleries');
+			$("#filter-sofa").addClass(button_class);
 		}
 		if(button==2){
-			$("#filter-studio").addClass(button_class);
-			$("#gallery-header-center-left-title").html('Studio Gallery');
+			$("#filter-chair").addClass(button_class);
 		}
 		if(button==3){
-			$("#filter-landscape").addClass(button_class);
-			$("#gallery-header-center-left-title").html('Landscape Gallery');
+			$("#filter-table").addClass(button_class);
+		}
+		if(button==4){
+			$("#filter-tivi").addClass(button_class);
+		}
+		if(button==5){
+			$("#filter-shoes").addClass(button_class);
 		}
 	}
 
-	function check_size(){
-		$("#gallery-content-center").removeClass(normal_size_class).removeClass(full_size_class);
+	function check_type(){
+		$("#product-items").removeClass(list).removeClass(grid);
 		if(size==0){
-			$("#gallery-content-center").addClass(normal_size_class);
-			$("#gallery-header-center-left-icon").html('<span class="iconb" data-icon="&#xe23a;"></span>');
+			$("#product-items").addClass(list);
 		}
 		if(size==1){
-			$("#gallery-content-center").addClass(full_size_class);
-			$("#gallery-header-center-left-icon").html('<span class="iconb" data-icon="&#xe23b;"></span>');
+			$("#product-items").addClass(grid);
 		}
 		$container.isotope({itemSelector : 'img'});
 	}
@@ -72,12 +74,12 @@ var SiteMain = (function() {
 	});
 
 	//FUNCTION
-	
+
 	//RETURN
 	return {
 		init:init
 	}
-})();		
+})();
 
 $(document).ready( function() {
 	SiteMain.init();
