@@ -17,20 +17,20 @@
 					<main class="cd-main-content">
 					<!-- Nav tabs -->
 						<ul class="nav nav-tabs inline nav-controls">
-							<li class="active" id="filter-sofa"><a>Sofa</a></li>
-							<li class="button" id="filter-chair"><a href="">Armchair</a></li>
-							<li class="button" id="filter-table"><a href="">Sofa Table</a></li>
-							<li class="button" id="filter-tivi"><a href="">Tivi Shelves</a></li>
-							<li class="button" id="filter-shoes"><a href="">Shoes Cabinet</a></li>
-							<li class="pull-right right">
+							<li class="active" id="filter-sofa">Sofa</li>
+							<li class="button" id="filter-chair">Armchair</li>
+							<li class="button" id="filter-table">Sofa Table</li>
+							<li class="button" id="filter-tivi">Tivi Shelves</li>
+							<li class="button" id="filter-shoes">Shoes Cabinet</li>
+							<li class="pull-right right transparent">
 								<ul class="nav nav-tabs inline tab-right">
-									<li class="middle-block">
-										<a class="transparent"><img src="images/list.png" alt=""></a>
+									<li class="middle-block transparent">
+										<img src="images/list.png" alt="">
 									</li>
-									<li class="middle-block">
-										<a class="transparent"><img src="images/grid.png" alt=""></a>
+									<li class="middle-block transparent">
+										<img src="images/grid.png" alt="">
 									</li>
-									<li>
+									<li class="transparent">
 										<div class="form-group">
 											<select class="form-control">
 												<option>Sort by name</option>
@@ -44,12 +44,12 @@
 							</li>
 						</ul>
 					<!-- Tab panes -->
-						<div class="tab-content" id="product-items">
+						<div class="tab-content">
 							<div class="tab-pane list inline">
 								<div class="row">
 									<div class="col-md-12">
-										<div class="row">
-											<div class="col-md-3 product-item sofa">
+										<div class="row" id="product-items">
+											<div class="col-md-3 product-item sofa-filter">
 												<div class="product-box middle-img">
 													<span class="text-sale text-uppercase">sale</span>
 													<img class="img-responsive" src="images/products/product-img-1.png" alt="">
@@ -74,7 +74,7 @@
 													<div class="bg-gray"></div>
 												</div>
 											</div>
-											<div class="col-md-3 product-item chair">
+											<div class="col-md-3 product-item chair-filter">
 												<div class="product-box middle-img">
 													<img class="img-responsive" src="images/products/product-img-2.png" alt="">
 												</div>
@@ -97,7 +97,7 @@
 													<div class="bg-gray"></div>
 												</div>
 											</div>
-											<div class="col-md-3 product-item table">
+											<div class="col-md-3 product-item table-filter">
 												<div class="product-box middle-img">
 													<img class="img-responsive" src="images/products/product-img-2.png" alt="">
 												</div>
@@ -120,7 +120,7 @@
 													<div class="bg-gray"></div>
 												</div>
 											</div>
-											<div class="col-md-3 product-item tivi">
+											<div class="col-md-3 product-item tivi-filter">
 												<div class="product-box middle-img">
 													<img class="img-responsive" src="images/products/product-img-2.png" alt="">
 												</div>
@@ -143,7 +143,7 @@
 													<div class="bg-gray"></div>
 												</div>
 											</div>
-											<div class="col-md-3 product-item shoes">
+											<div class="col-md-3 product-item shoes-filter">
 												<div class="product-box middle-img">
 													<img class="img-responsive" src="images/products/product-img-2.png" alt="">
 												</div>

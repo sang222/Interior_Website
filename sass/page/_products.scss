@@ -8,7 +8,7 @@
 
       li {
 
-        a:not(.transparent) {
+        &:not(.transparent) {
           @include FontRegular($font-body);
           color: $text-title;
           padding: 7px 20px;
@@ -25,7 +25,7 @@
           }
         }
         
-        &.active a {
+        &.active {
           background: #000;
           color: #fff;
           @include FontBold($font-body);
@@ -39,12 +39,20 @@
 
         li {
 
-          a.active {
+          &.active {
             background: none;
           }
 
-          &.active a {
+          &.active {
             background: none;
+          }
+
+          img:first-of-type {
+            margin-right: 10px;
+          }
+
+          img:last-child {
+            margin-right: 17px;
           }
 
         }

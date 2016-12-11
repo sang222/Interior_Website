@@ -7,7 +7,7 @@ var SiteMain = (function() {
 	var grid = "grid";
 	var $container = $('#product-items');
 
-	$container.isotope({itemSelector : 'img'});
+	$container.isotope({itemSelector : 'div'});
 
 	//INIT
 	function init(){
@@ -18,11 +18,11 @@ var SiteMain = (function() {
 	}
 
 	function initEvents(){
-		$("#filter-sofa").click(function() { $container.isotope({ filter: '.sofa' }); button = 1; check_button(); });
-		$("#filter-chair").click(function() {  $container.isotope({ filter: '.chair' }); button = 2; check_button();  });
-		$("#filter-table").click(function() {  $container.isotope({ filter: '.table' }); button = 3; check_button();  });
-		$("#filter-tivi").click(function() {  $container.isotope({ filter: '.tivi' }); button = 4; check_button();  });
-		$("#filter-shoes").click(function() {  $container.isotope({ filter: '.shoes' }); button = 5; check_button();  });
+		$("#filter-sofa").click(function() { $container.isotope({ filter: '.sofa-filter' }); button = 1; check_button(); });
+		$("#filter-chair").click(function() {  $container.isotope({ filter: '.chair-filter' }); button = 2; check_button();  });
+		$("#filter-table").click(function() {  $container.isotope({ filter: '.table-filter' }); button = 3; check_button();  });
+		$("#filter-tivi").click(function() {  $container.isotope({ filter: '.tivi-filter' }); button = 4; check_button();  });
+		$("#filter-shoes").click(function() {  $container.isotope({ filter: '.shoes-filter' }); button = 5; check_button();  });
 	}
 
 	function check_button(){
@@ -52,7 +52,7 @@ var SiteMain = (function() {
 		if(size==1){
 			$("#product-items").addClass(grid);
 		}
-		$container.isotope({itemSelector : 'img'});
+		$container.isotope({itemSelector : 'div'});
 	}
 
 	$(document).ready(function() {

@@ -23,6 +23,7 @@
 	</footer>
 	<!-- jQuery -->
 	<script src="js/lib/jquery-2.1.1.js"></script>
+	<script type="text/javascript" src="js/lib/jquery-2.0.2.min.js"></script>
 	<script src="js/lib/modernizr.js"></script>
 
 	<!-- bxSlider -->
