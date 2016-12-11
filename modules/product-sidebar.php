@@ -16,33 +16,9 @@
                 <div class="col-md-12">
                     <main class="cd-main-content">
                         <!-- Nav tabs -->
-                        <ul class="nav nav-tabs inline nav-controls">
-                            <li class="active" data-shuffle><a aria-controls="sofa">Sofa</a></li>
-                            <li data-shuffle><a href="">Armchair</a></li>
-                            <li data-shuffle><a href="">Sofa Table</a></li>
-                            <li data-shuffle><a href="">Tivi Shelves</a></li>
-                            <li data-shuffle><a href="">Shoes Cabinet</a></li>
-                            <li class="pull-right right">
-                                <ul class="nav nav-tabs inline tab-right">
-                                    <li class="middle-block" data-filter="list">
-                                        <a class="transparent"><img src="images/list.png" alt=""></a>
-                                    </li>
-                                    <li class="middle-block" data-filter="grid">
-                                        <a class="transparent"><img src="images/grid.png" alt=""></a>
-                                    </li>
-                                    <li>
-                                        <div class="form-group">
-                                            <select class="form-control" id="sel1" data-sortOrder>
-                                                <option>Sort by name</option>
-                                                <option>2</option>
-                                                <option>3</option>
-                                                <option>4</option>
-                                            </select>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
+                        <?php
+                            include ("includes/control.php");
+                        ?>
                         <!-- Tab panes -->
                         <div class="tab-content">
                             <div class="tab-pane list inline">

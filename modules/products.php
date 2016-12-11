@@ -16,46 +16,22 @@
 				<div class="col-md-12">
 					<main class="cd-main-content">
 					<!-- Nav tabs -->
-						<ul class="nav nav-tabs inline nav-controls">
-							<li class="active" id="filter-sofa">Sofa</li>
-							<li class="button" id="filter-chair">Armchair</li>
-							<li class="button" id="filter-table">Sofa Table</li>
-							<li class="button" id="filter-tivi">Tivi Shelves</li>
-							<li class="button" id="filter-shoes">Shoes Cabinet</li>
-							<li class="pull-right right transparent">
-								<ul class="nav nav-tabs inline tab-right">
-									<li class="middle-block transparent">
-										<img src="images/list.png" alt="">
-									</li>
-									<li class="middle-block transparent">
-										<img src="images/grid.png" alt="">
-									</li>
-									<li class="transparent">
-										<div class="form-group">
-											<select class="form-control">
-												<option>Sort by name</option>
-												<option>2</option>
-												<option>3</option>
-												<option>4</option>
-											</select>
-										</div>
-									</li>
-								</ul>
-							</li>
-						</ul>
+						<?php
+							include "includes/control.php";
+						?>
 					<!-- Tab panes -->
 						<div class="tab-content">
-							<div class="tab-pane list inline">
+							<div class="tab-pane list full">
 								<div class="row">
-									<div class="col-md-12">
-										<div class="row" id="product-items">
-											<div class="col-md-3 product-item sofa-filter">
+									<div class="col-md-12" id="gallery-content">
+										<div class="row" id="gallery-content-center">
+											<div class="col-md-3 product-item-grid gird-filter sofa-filter-grid">
 												<div class="product-box middle-img">
 													<span class="text-sale text-uppercase">sale</span>
 													<img class="img-responsive" src="images/products/product-img-1.png" alt="">
 												</div>
 												<div class="relative">
-													<div class="product-item-content">
+													<div class="product-item-grid-content">
 														<p class="text-uppercase">mid centure</p>
 														<span><del>$ 160.00</del></span>
 														<span>$ 145.00</span>
@@ -74,12 +50,12 @@
 													<div class="bg-gray"></div>
 												</div>
 											</div>
-											<div class="col-md-3 product-item chair-filter">
+											<div class="col-md-3 product-item-grid gird-filter chair-filter-grid">
 												<div class="product-box middle-img">
 													<img class="img-responsive" src="images/products/product-img-2.png" alt="">
 												</div>
 												<div class="relative">
-													<div class="product-item-content">
+													<div class="product-item-grid-content">
 														<p class="text-uppercase">mid centure</p>
 														<span>$ 180.00</span>
 													</div>
@@ -97,12 +73,12 @@
 													<div class="bg-gray"></div>
 												</div>
 											</div>
-											<div class="col-md-3 product-item table-filter">
+											<div class="col-md-3 product-item-grid gird-filter table-filter-grid">
 												<div class="product-box middle-img">
 													<img class="img-responsive" src="images/products/product-img-2.png" alt="">
 												</div>
 												<div class="relative">
-													<div class="product-item-content">
+													<div class="product-item-grid-content">
 														<p class="text-uppercase">mid centure</p>
 														<span>$ 180.00</span>
 													</div>
@@ -120,12 +96,12 @@
 													<div class="bg-gray"></div>
 												</div>
 											</div>
-											<div class="col-md-3 product-item tivi-filter">
+											<div class="col-md-3 product-item-grid gird-filter tivi-filter-grid">
 												<div class="product-box middle-img">
 													<img class="img-responsive" src="images/products/product-img-2.png" alt="">
 												</div>
 												<div class="relative">
-													<div class="product-item-content">
+													<div class="product-item-grid-content">
 														<p class="text-uppercase">mid centure</p>
 														<span>$ 180.00</span>
 													</div>
@@ -143,12 +119,12 @@
 													<div class="bg-gray"></div>
 												</div>
 											</div>
-											<div class="col-md-3 product-item shoes-filter">
+											<div class="col-md-3 product-item-grid gird-filter shoes-filter-grid">
 												<div class="product-box middle-img">
 													<img class="img-responsive" src="images/products/product-img-2.png" alt="">
 												</div>
 												<div class="relative">
-													<div class="product-item-content">
+													<div class="product-item-grid-content">
 														<p class="text-uppercase">mid centure</p>
 														<span>$ 180.00</span>
 													</div>
@@ -166,11 +142,17 @@
 													<div class="bg-gray"></div>
 												</div>
 											</div>
-											<div class="col-md-12">
-												<div class="pull-right">
-													<?php include('modules/includes/pagination.php'); ?>
-												</div>
+											<div class="col-md-6 product-item-list inline">
+												<p>test</p>
 											</div>
+											<div class="col-md-6 product-item-list inline"">
+												<p>test</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-12">
+										<div class="pull-right">
+											<?php include('modules/includes/pagination.php'); ?>
 										</div>
 									</div>
 								</div>
