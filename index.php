@@ -33,12 +33,13 @@
 	<!-- Slcik -->
 	<script src="vendor/slick/slick.js"></script>
 
-	<!-- Filter -->
+	<!-- Filter
 	<script type="text/javascript" src="vendor/filter/animated-masonry-gallery.js"></script>
 	<script type="text/javascript" src="vendor/filter/isotope.min.js"></script>
 	<script type="text/javascript" src="vendor/filter/jquery-ui-1.10.4.min.js"></script>
 	<script type="text/javascript" src="vendor/filter/jquery.isotope.min.js"></script>
-
+-->
+	<script src="js/lib/jquery.mixitup.min.js"></script>
 	<!-- Bootstrap Core JavaScript -->
 	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
@@ -46,7 +47,7 @@
 	<script type="text/javascript" src="js/lib/wow.js"></script>
 
 	<!-- Filter -->
-	<script type="text/javascript" href="vendor/mixitup-master/src/jquery.mixitup.js"></script>
+	<!--<script type="text/javascript" href="vendor/mixitup-master/src/jquery.mixitup.js"></script>-->
 
 
 	<!-- SiteMain -->

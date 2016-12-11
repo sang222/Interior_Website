@@ -1,3 +1,4 @@
+/*
 $(window).load(function () {
 
     var size = 1;
@@ -6,8 +7,11 @@ $(window).load(function () {
     var normal_size_class = "list";
     var full_size_class = "grid";
     var $container = $('#gallery-content-center');
-
-    $container.isotope({itemSelector : '.product-item-grid, .product-item-list'});
+    var $itemwidth = $('.product-item-grid').width();
+    console.log($itemwidth);
+    $container.isotope({
+        itemSelector : '.product-item-grid, .product-item-list'
+    });
 
 
     function check_button(){
@@ -36,6 +40,10 @@ $(window).load(function () {
             $("#filter-grid").addClass(button_class);
             //$("#gallery-header-center-left-title").html('Landscape Gallery');
         }
+        if(button==7){
+            $("#filter-list").addClass(button_class);
+            //$("#gallery-header-center-left-title").html('Landscape Gallery');
+        }
     }
 
     function check_size(){
@@ -48,7 +56,7 @@ $(window).load(function () {
             $("#gallery-content-center").addClass(full_size_class);
             //$("#gallery-header-center-left-icon").html('<span class="iconb" data-icon="&#xe23b;"></span>');
         }
-        $container.isotope({itemSelector : '.product-item-grid'});
+        $container.isotope({itemSelector : '.product-item-grid, .product-item-list'});
     }
 
 
@@ -59,10 +67,11 @@ $(window).load(function () {
     $("#filter-tivi").click(function() {  $container.isotope({ filter: '.tivi-filter-grid' }); button = 4; check_button();  });
     $("#filter-shoes").click(function() {  $container.isotope({ filter: '.shoes-filter-grid' }); button = 5; check_button();  });
     $("#filter-grid").click(function() {  $container.isotope({ filter: '.gird-filter' }); button = 6; check_button();  });
-    /* check list and grid */
-    //$("#gallery-header-center-left-icon").click(function() { if(size==0){size=1;}else if(size==1){size=0;} check_size(); });
+    $("#filter-list").click(function() {  $container.isotope({ filter: '.list-filter' }); button = 6; check_button();  });
+    /!* check list and grid *!/
+    $("#gallery-header-center-left-icon").click(function() { if(size==0){size=1;}else if(size==1){size=0;} check_size(); });
 
 
     check_button();
     check_size();
-});
+});*/

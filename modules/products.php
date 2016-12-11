@@ -142,12 +142,6 @@
 													<div class="bg-gray"></div>
 												</div>
 											</div>
-											<div class="col-md-6 product-item-list inline">
-												<p>test</p>
-											</div>
-											<div class="col-md-6 product-item-list inline"">
-												<p>test</p>
-											</div>
 										</div>
 									</div>
 									<div class="col-md-12">
