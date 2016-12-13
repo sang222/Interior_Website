@@ -25,7 +25,7 @@
 								<div class="row">
 									<div class="col-md-12" id="gallery-content">
 										<div class="row filter-container" data-ref="filter-container">
-											<div data-ref="filter-item" class="hidden col-md-3 product-item filter-sofa">
+											<div data-ref="filter-item" class="col-md-3 product-item filter-sofa">
 												<div class="product-box middle-img">
 													<span class="text-sale text-uppercase">sale</span>
 													<img class="img-responsive" src="images/products/product-img-1.png" alt="">
@@ -50,7 +50,7 @@
 													<div class="bg-gray"></div>
 												</div>
 											</div>
-											<div data-ref="filter-item" class="hidden col-md-3 product-item filter-chair">
+											<div data-ref="filter-item" class="col-md-3 product-item filter-chair">
 												<div class="product-box middle-img">
 													<img class="img-responsive" src="images/products/product-img-2.png" alt="">
 												</div>
@@ -73,7 +73,7 @@
 													<div class="bg-gray"></div>
 												</div>
 											</div>
-											<div data-ref="filter-item" class="hidden col-md-3 product-item filter-table">
+											<div data-ref="filter-item" class="col-md-3 product-item filter-table">
 												<div class="product-box middle-img">
 													<img class="img-responsive" src="images/products/product-img-2.png" alt="">
 												</div>
@@ -96,7 +96,7 @@
 													<div class="bg-gray"></div>
 												</div>
 											</div>
-											<div data-ref="filter-item" class="hidden col-md-3 product-item filter-tivi">
+											<div data-ref="filter-item" class="col-md-3 product-item filter-tivi">
 												<div class="product-box middle-img">
 													<img class="img-responsive" src="images/products/product-img-2.png" alt="">
 												</div>
@@ -119,7 +119,7 @@
 													<div class="bg-gray"></div>
 												</div>
 											</div>
-											<div data-ref="filter-item" class="hidden col-md-3 product-item filter-shoes">
+											<div data-ref="filter-item" class="col-md-3 product-item filter-shoes">
 												<div class="product-box middle-img">
 													<img class="img-responsive" src="images/products/product-img-2.png" alt="">
 												</div>
@@ -142,7 +142,9 @@
 													<div class="bg-gray"></div>
 												</div>
 											</div>
-											<div class="col-md-6 product-item product-item-list">
+
+											<!-- List -->
+											<!--<div class="col-md-6 product-item product-item-list">
 												<div class="col-md-5">
 													<div class="product-box middle-img">
 														<img class="img-responsive" src="images/list/img-1.png" alt="">
@@ -188,11 +190,9 @@
 														<div class="product-item-content">
 															<div class="item-name">
 																<span class="text-uppercase">mid centure</span>
-																<span class="text-sale text-uppercase">sale</span>
 															</div>
 															<div class="price">
-																<span class="price-now">$ 160.00</span>
-																<span><strong>$ 145.00</strong></span>
+																<span>$ 145.00</span>
 															</div>
 															<p class="description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
 														</div>
@@ -209,7 +209,7 @@
                                                         </div>
 													</div>
 												</div>
-											</div>
+											</div>-->
 										</div>
 									</div>
 									<div class="col-md-12">

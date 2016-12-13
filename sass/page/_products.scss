@@ -215,7 +215,7 @@
           min-height: 198px;
 
           .product-box {
-            min-height: inherit;
+            min-height: 180px;
 
             .bg-gray {
               top: inherit;
@@ -225,42 +225,47 @@
 
           }
 
-          .product-item-content {
-            margin-left: 0;
-            padding: 0;
+          .relative {
+            min-height: 212px;
 
-            &:before {
-              width: 0;
-            }
-
-            .item-name {
-              display: inline-block;
-              position: relative;
-              padding-right: 70px;
-              margin-bottom: 10px;
-            }
-
-            span.price-now {
-              position: relative;
+            .product-item-content {
+              margin-left: 0;
+              padding: 0;
 
               &:before {
-                content: '';
-                position: absolute;
-                height: 1px;
-                background: #000;
-                left: -43px;
-                width: 110px;
-                top: 11px;
+                width: 0;
+              }
+
+              .item-name {
+                display: inline-block;
+                position: relative;
+                padding-right: 70px;
+                margin-bottom: 10px;
+              }
+
+              span.price-now {
+                position: relative;
+
+                &:before {
+                  content: '';
+                  position: absolute;
+                  height: 1px;
+                  background: #000;
+                  left: -43px;
+                  width: 110px;
+                  top: 11px;
+                }
+
               }
 
             }
 
-          }
-          
-          .cart {
-            display: block;
-            top: inherit;
-            bottom: -54px;
+            .cart {
+              display: block;
+              top: inherit;
+              bottom: 0;
+            }
+
           }
 
         }

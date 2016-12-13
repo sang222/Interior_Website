@@ -31,7 +31,13 @@ var SiteMain = (function() {
 		var mixer = mixitup(containerEl, {
 			selectors: {
 				target: '[data-ref~="filter-item"]'
-			}
+			},
+			"animation": {
+			"duration": 700,
+			"nudge": true,
+			"reverseOut": true,
+			"effects": "fade scale(0.01) translateZ(-100px)"
+		}
 		});
 
 	});

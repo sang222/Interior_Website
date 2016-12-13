@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aaf67b7a-922c-423b-b44e-731664826991" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/90f55161e836cd3dc109868685d48c327e4d0782/_pagination.scssc" afterPath="$PROJECT_DIR$/.sass-cache/90f55161e836cd3dc109868685d48c327e4d0782/_pagination.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/94d07cad0926d237966d6d723df9f2f967ed6c3a/_products.scssc" afterPath="$PROJECT_DIR$/.sass-cache/94d07cad0926d237966d6d723df9f2f967ed6c3a/_products.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/all.css" afterPath="$PROJECT_DIR$/css/all.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/all.css.map" afterPath="$PROJECT_DIR$/css/all.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/includes/control.php" afterPath="$PROJECT_DIR$/modules/includes/control.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/includes/pagination.php" afterPath="$PROJECT_DIR$/modules/includes/pagination.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app/class.SiteMain.js" afterPath="$PROJECT_DIR$/js/app/class.SiteMain.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/products.php" afterPath="$PROJECT_DIR$/modules/products.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_pagination.scss" afterPath="$PROJECT_DIR$/sass/_pagination.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/page/_products.scss" afterPath="$PROJECT_DIR$/sass/page/_products.scss" />
     </list>
     <ignored path="Interior_Website.iws" />
@@ -31,38 +28,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="products.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="products.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/products.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="181" column="106" selection-start-line="181" selection-start-column="106" selection-end-line="181" selection-end-column="106" />
+            <state relative-caret-position="390">
+              <caret line="121" column="79" selection-start-line="121" selection-start-column="79" selection-end-line="121" selection-end-column="79" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
                 <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
                 <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
                 <element signature="n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
-                <element signature="n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
+                <element signature="e#8172#12335#0#HTML" expanded="false" />
+                <marker date="1481640109437" expanded="false" signature="8228:10317" ph="..." />
+                <marker date="1481640109437" expanded="false" signature="10417:10626" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_pagination.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sass/_pagination.scss">
+      <file leaf-file-name="class.SiteMain.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/app/class.SiteMain.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pagination.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/includes/pagination.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+            <state relative-caret-position="477">
+              <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -71,18 +60,8 @@
       <file leaf-file-name="_products.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/page/_products.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="262" column="23" selection-start-line="262" selection-start-column="23" selection-end-line="262" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="animated-masonry-gallery.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/filter/animated-masonry-gallery.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="17" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="17" />
+            <state relative-caret-position="296">
+              <caret line="228" column="27" selection-start-line="228" selection-start-column="27" selection-end-line="228" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -143,12 +122,12 @@
         <option value="$PROJECT_DIR$/vendor/filter/animated-masonry-gallery.js" />
         <option value="$PROJECT_DIR$/sass/_animate.scss" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/js/app/class.SiteMain.js" />
         <option value="$PROJECT_DIR$/modules/includes/control.php" />
-        <option value="$PROJECT_DIR$/sass/page/_products.scss" />
         <option value="$PROJECT_DIR$/sass/_pagination.scss" />
         <option value="$PROJECT_DIR$/modules/includes/pagination.php" />
+        <option value="$PROJECT_DIR$/sass/page/_products.scss" />
         <option value="$PROJECT_DIR$/modules/products.php" />
+        <option value="$PROJECT_DIR$/js/app/class.SiteMain.js" />
       </list>
     </option>
   </component>
@@ -491,12 +470,12 @@
       <workItem from="1481401400269" duration="3891000" />
       <workItem from="1481432769557" duration="6204000" />
       <workItem from="1481458751619" duration="3969000" />
-      <workItem from="1481634129700" duration="4315000" />
+      <workItem from="1481634129700" duration="6787000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="227824000" />
+    <option name="totallyTimeSpent" value="230296000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -831,26 +810,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/app/class.SiteMain.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="34" column="11" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/includes/control.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="85" selection-start-line="8" selection-start-column="85" selection-end-line="8" selection-end-column="85" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/page/_products.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="262" column="23" selection-start-line="262" selection-start-column="23" selection-end-line="262" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -871,18 +834,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sass/page/_products.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="228" column="27" selection-start-line="228" selection-start-column="27" selection-end-line="228" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/modules/products.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="181" column="106" selection-start-line="181" selection-start-column="106" selection-end-line="181" selection-end-column="106" />
+        <state relative-caret-position="390">
+          <caret line="121" column="79" selection-start-line="121" selection-start-column="79" selection-end-line="121" selection-end-column="79" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
             <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
             <element signature="n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
+            <element signature="e#8172#12335#0#HTML" expanded="false" />
+            <marker date="1481640109437" expanded="false" signature="8228:10317" ph="..." />
+            <marker date="1481640109437" expanded="false" signature="10417:10626" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app/class.SiteMain.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
