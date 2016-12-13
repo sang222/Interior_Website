@@ -6,7 +6,7 @@
     <li class="button" data-filter=".filter-shoes">Shoes Cabinet</li>
     <li class="pull-right right transparent">
         <ul class="nav nav-tabs inline tab-right">
-            <li class="middle-block transparent button button-list" id="filter-list">
+            <li class="middle-block transparent button button-list" data-filter="all">
                 <img src="images/list.png" alt="">
             </li>
             <li class="middle-block transparent button button-gird" id="filter-grid">
