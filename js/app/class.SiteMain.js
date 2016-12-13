@@ -25,6 +25,15 @@ var SiteMain = (function() {
 		});
 
 		new WOW().init();
+
+		var containerEl = document.querySelector('[data-ref~="filter-container"]');
+
+		var mixer = mixitup(containerEl, {
+			selectors: {
+				target: '[data-ref~="filter-item"]'
+			}
+		});
+
 	});
 
 	//FUNCTION

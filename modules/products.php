@@ -24,14 +24,14 @@
 							<div class="tab-pane list full">
 								<div class="row">
 									<div class="col-md-12" id="gallery-content">
-										<div class="row" id="gallery-content-center">
-											<div class="col-md-3 product-item-grid gird-filter sofa-filter-grid">
+										<div class="row filter-container" data-ref="filter-container">
+											<div data-ref="filter-item" class="col-md-3 product-item filter-sofa">
 												<div class="product-box middle-img">
 													<span class="text-sale text-uppercase">sale</span>
 													<img class="img-responsive" src="images/products/product-img-1.png" alt="">
 												</div>
 												<div class="relative">
-													<div class="product-item-grid-content">
+													<div class="product-item-content">
 														<p class="text-uppercase">mid centure</p>
 														<span><del>$ 160.00</del></span>
 														<span>$ 145.00</span>
@@ -50,12 +50,12 @@
 													<div class="bg-gray"></div>
 												</div>
 											</div>
-											<div class="col-md-3 product-item-grid gird-filter chair-filter-grid">
+											<div data-ref="filter-item" class="col-md-3 product-item filter-chair">
 												<div class="product-box middle-img">
 													<img class="img-responsive" src="images/products/product-img-2.png" alt="">
 												</div>
 												<div class="relative">
-													<div class="product-item-grid-content">
+													<div class="product-item-content">
 														<p class="text-uppercase">mid centure</p>
 														<span>$ 180.00</span>
 													</div>
@@ -73,12 +73,12 @@
 													<div class="bg-gray"></div>
 												</div>
 											</div>
-											<div class="col-md-3 product-item-grid gird-filter table-filter-grid">
+											<div data-ref="filter-item" class="col-md-3 product-item filter-table">
 												<div class="product-box middle-img">
 													<img class="img-responsive" src="images/products/product-img-2.png" alt="">
 												</div>
 												<div class="relative">
-													<div class="product-item-grid-content">
+													<div class="product-item-content">
 														<p class="text-uppercase">mid centure</p>
 														<span>$ 180.00</span>
 													</div>
@@ -96,12 +96,12 @@
 													<div class="bg-gray"></div>
 												</div>
 											</div>
-											<div class="col-md-3 product-item-grid gird-filter tivi-filter-grid">
+											<div data-ref="filter-item" class="col-md-3 product-item filter-tivi">
 												<div class="product-box middle-img">
 													<img class="img-responsive" src="images/products/product-img-2.png" alt="">
 												</div>
 												<div class="relative">
-													<div class="product-item-grid-content">
+													<div class="product-item-content">
 														<p class="text-uppercase">mid centure</p>
 														<span>$ 180.00</span>
 													</div>
@@ -119,12 +119,12 @@
 													<div class="bg-gray"></div>
 												</div>
 											</div>
-											<div class="col-md-3 product-item-grid gird-filter shoes-filter-grid">
+											<div data-ref="filter-item" class="col-md-3 product-item filter-shoes">
 												<div class="product-box middle-img">
 													<img class="img-responsive" src="images/products/product-img-2.png" alt="">
 												</div>
 												<div class="relative">
-													<div class="product-item-grid-content">
+													<div class="product-item-content">
 														<p class="text-uppercase">mid centure</p>
 														<span>$ 180.00</span>
 													</div>

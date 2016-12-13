@@ -1,9 +1,9 @@
 <ul class="nav nav-tabs inline nav-controls">
     <li class="button" data-filter=".filter-sofa">Sofa</li>
-    <li class="button" id="filter-chair">Armchair</li>
-    <li class="button" id="filter-table">Sofa Table</li>
-    <li class="button" id="filter-tivi">Tivi Shelves</li>
-    <li class="button" id="filter-shoes">Shoes Cabinet</li>
+    <li class="button" data-filter=".filter-chair">Armchair</li>
+    <li class="button" data-filter=".filter-table">Sofa Table</li>
+    <li class="button" data-filter=".filter-tivi">Tivi Shelves</li>
+    <li class="button" data-filter=".filter-shoes">Shoes Cabinet</li>
     <li class="pull-right right transparent">
         <ul class="nav nav-tabs inline tab-right">
             <li class="middle-block transparent button button-list" id="filter-list">
