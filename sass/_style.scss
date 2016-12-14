@@ -113,3 +113,13 @@
 	height: 100%;
 }*/
 
+.text-sale {
+	@include FontBold(13px);
+	color: #fff;
+	padding: 4px 12px 11px 13px;
+	background: url(../images/text-sale.png) no-repeat;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
