@@ -5,8 +5,21 @@ var SiteMain = (function() {
 	//INIT
 	function init(){
 		//clsHomepage.init();
+		filterProduct();
 	}
 
+	function filterProduct() {
+		$('#filter-type ul li').on('click', function () {
+			var type = $(this).attr('data-type');
+			$('.filter-container').attr('data-type', type);
+			if(type == "list-filter"){
+
+				$('.filter-container .product-item').removeClass('col-md-3').addClass('col-md-6');
+			}else{
+				$('.filter-container .product-item').removeClass('col-md-6').addClass('col-md-3');
+			}
+		});
+	}
 
 
 	$(document).ready(function() {
@@ -21,7 +34,7 @@ var SiteMain = (function() {
 
 		$('.remove').click(function (event) {
 			event.preventDefault();
-			$(this).parents('.line-bottom').addClass('wow animated slideOutUp hidden-animation');
+			$(this).parents('.line-bottom').remove();
 		});
 
 		new WOW().init();
@@ -32,11 +45,12 @@ var SiteMain = (function() {
 			selectors: {
 				target: '[data-ref~="filter-item"]'
 			},
+            multifilter: {
+                enable: true // enable the multifilter extension for the mixer
+            },
 			"animation": {
 			"duration": 700,
-			"nudge": true,
-			"reverseOut": true,
-			"effects": "fade scale(0.01) translateZ(-100px)"
+			"effects": "fade scale(0.03) translateZ(-100px)"
 		}
 		});
 

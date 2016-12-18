@@ -163,6 +163,10 @@
           @include FontRegular($font-body);
           color: $text;
           padding-top: 15px;
+          display: none;
+        }
+        .cart{
+          display: none;
         }
 
         img {
@@ -261,6 +265,13 @@
         }
 
       }
+    [data-type="list-filter"]{
+      .cart, .description{
+        display: block;
+      }
+
+
+    }
 
 
     .form-control {

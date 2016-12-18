@@ -22,7 +22,6 @@
 
 	</footer>
 	<!-- jQuery -->
-	<script src="js/lib/jquery-2.1.1.js"></script>
 	<script type="text/javascript" src="js/lib/jquery-2.0.2.min.js"></script>
 	<script src="js/lib/modernizr.js"></script>
 
@@ -40,6 +39,7 @@
 	<script type="text/javascript" src="vendor/filter/jquery.isotope.min.js"></script>
 -->
 	<script src="js/lib/mixitup.min.js"></script>
+	<script src="js/lib/mixitup-multifilter.js"></script>
 	<!-- Bootstrap Core JavaScript -->
 	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
