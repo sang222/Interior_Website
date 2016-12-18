@@ -140,7 +140,7 @@
           width: 100%;
           height: 70px;
           background: $box;
-          top: -32px;
+          bottom: -32px;
           left: 0;
           z-index: -1;
         }
@@ -263,11 +263,110 @@
           }
 
         }
+        
+        .relative {
+          
+          .text-sale {
+            display: none;
+          }
+          
+        }
 
       }
-    [data-type="list-filter"]{
-      .cart, .description{
-        display: block;
+    [data-type="list-filter"] {
+
+
+      .product-item {
+        min-height: 240px;
+
+        .product-box {
+          min-height: 0;
+
+          .text-sale {
+            display: none;
+          }
+
+        }
+
+        .bg-gray {
+          height: 50px;
+          top: inherit;
+          bottom: -32px;
+        }
+
+        .cart, .description{
+          display: block;
+        }
+
+        .relative {
+          min-height: 195px;
+
+
+          .cart {
+            bottom: 0;
+            top: inherit;
+          }
+
+          .product-item-content {
+            padding: 0;
+            margin: 0;
+
+            &:before {
+              width: 0;
+            }
+
+            .text-uppercase {
+              @include FontBold(18px);
+            }
+
+           .sale-price {
+             position: relative;
+
+             del {
+               text-decoration: none;
+             }
+
+             &:before {
+               content: '';
+               position: absolute;
+               width: 110px;
+               height: 1px;
+               background: #000;
+               top: 11px;
+               right: 0;
+             }
+
+           }
+            
+            .sale-box {
+              position: relative;
+              display: inline-block;
+              padding-right: 65px;
+              margin-bottom: 10px;
+              
+              .text-sale {
+                display: block;
+                font-size: 13px;
+              }
+
+              span {
+                margin-right: 0;
+              }
+
+            }
+
+          }
+
+        }
+
+        .middle-img {
+
+          img {
+            width: 70%;
+          }
+
+        }
+
       }
 
 

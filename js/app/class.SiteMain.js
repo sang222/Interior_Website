@@ -12,11 +12,17 @@ var SiteMain = (function() {
 		$('#filter-type ul li').on('click', function () {
 			var type = $(this).attr('data-type');
 			$('.filter-container').attr('data-type', type);
-			if(type == "list-filter"){
-
+			if (type == "list-filter") {
 				$('.filter-container .product-item').removeClass('col-md-3').addClass('col-md-6');
-			}else{
+				$('.middle-img').wrap("<div class='col-md-5'></div>");
+				$('.relative').wrap("<div class='col-md-7 no-padding-left'></div>");
+				$('.product-item').wrapInner("<div class='row wrap-row'></div>");
+			}
+			else {
 				$('.filter-container .product-item').removeClass('col-md-6').addClass('col-md-3');
+				$('.middle-img').unwrap();
+				$('.relative').unwrap();
+				$('.wrap-row').removeClass('row');
 			}
 		});
 	}
